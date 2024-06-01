@@ -1,0 +1,29 @@
+  751  bash mse.sh > commands
+history
+  932  ./gensbatch -h header1.sh -f commands -t 240 -m 32G
+  ???  ./gensbatch -h header1.sh -f commands -t 240 -C 5
+  933  bash -c 'for i in {1..447}; do sbatch sub$i.sh; done'
+  934  squeue -u loria
+  935  scancel -u loria
+  936  squeue -u loria
+  937  history
+  938  sinteractive -A statdept -N 1 -n 16 -t 4:0:0
+./gensbatch -h header1.sh -f commands -t 240 -m 8G
+bash -c 'for i in {1..765}; do sbatch sub$i.sh; done'
+
+./gensbatch -A statdept -h header1.sh -f commands_big_p -t 240 -m 32G
+
+
+./gensbatch -h header1.sh -f commands -t 240 -m 40G
+
+
+scontrol show job [jobid]
+
+ssh brown-[node]
+
+find . -name 'bp_jump_case_alpha_1.9_sigma_1_sigma_unk_FALSE_nu_*' -exec xdg-open {} \;
+
+
+
+
+

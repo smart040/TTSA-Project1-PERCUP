@@ -1,0 +1,60 @@
+#!/bin/bash
+# Doug Crabill, dgc@purdue.edu, 3/28/2023  v1.6
+# Generate sbatch submission scripts from a file of commands, one per line,
+# pepending a provided sbatch header file, using GNU parallel
+
+usage() { echo "Usage: $0 -h HEADER -f CMDFILE -t MINUTES_PER_JOB [-m MEM_PER_JOB ] [-c CORES_PER_JOB] [-A queue] [-w MAX_QUEUE_MINUTES] [-s SCRIPT_PREFIX] [-C MAX_CORES_PER_NODE]"; exit 1; }
+
+maxmins=240    # Standby limit is 4 hours or 240 minutes, can be overridden
+#cores=$(sinfo -e -h -o "%c" | sort -n  | tail -1)   # Cores per node
+cores=128
+mempc=$(scontrol show partition -o | perl -ne '/PartitionName=[^ ]*standby .*DefMemPerCPU=([0-9]+) / && print "$1\n"')
+mempj=$mempc
+#nodemem=$(sinfo -h -o "%m" | sed -e 's/\+//')  # Max RAM per node
+script="sub"  # Prefix to use on generated sbatch files, can be overridden
+corespj=1     # Default to 1 core per job, can be overridden
+
+while getopts ":h:f:m:c:t:A:w:s:C:" opt; do
+    case $opt in
+	h) header=${OPTARG} ;;
+	f) cmdfile=${OPTARG} ;;
+	m) mempj=${OPTARG} ;;
+	c) corespj=${OPTARG} ;;
+	t) minpj=${OPTARG} ;;
+	A) queue=${OPTARG} ;;
+	w) maxmins=${OPTARG} ;;
+	s) script=${OPTARG} ;;
+	C) cores=${OPTARG} ;;
+	\?) usage ;;
+    esac
+done
+
+mempj=$(($(echo $mempj | sed -e 's/M//; s/G/*1000/'))) # Convert to MB
+nodemem=$((cores*mempc))
+jobspn=$cores  # May scale down if -m or -c specified 
+jobspn=$(((nodemem/mempj > cores) ? cores : nodemem/mempj)) # Scale down if -m
+jobspn=$(((cores/corespj > jobspn) ? jobspn : cores/corespj)) # Scale if -c
+if [ -z "$header" -o -z "$cmdfile" -o -z "$minpj" ]; then
+    usage
+fi
+if [ "$minpj" -gt "$maxmins" ] ; then
+    echo "Error: minutes per job exceeds $maxmins"
+    exit 1
+fi
+
+tot=$(wc -l < $cmdfile)  # Total number of commands to run
+cpj="$((maxmins/minpj * jobspn))"  # Commands per sbatch job
+nscripts=$((tot/cpj + ((tot%cpj)>0 ? 1 : 0)))
+
+# Generate an appropriate number of subN.sh files
+for ((i=1; i <= nscripts; i++)); do
+    (echo -e "#!/bin/bash -l\n#SBATCH -A ${queue:-standby}\n#SBATCH -n $jobspn\n#SBATCH -t $maxmins\n#SBATCH -c $corespj\n#SBATCH --mem-per-cpu=$mempj\n\n"; \
+     cat $header; \
+     echo "parallel -j $jobspn << HERE"; \
+     sed -n "$(((i-1)*$cpj+1)),+$(($cpj-1)){s/^/srun --exact -N1 -n1 -c$corespj --mem-per-cpu=$mempj /;p}" < $cmdfile; \
+     echo "HERE" \
+    ) > $script$i.sh
+done
+
+echo -e "Scripts created.  To submit, type the following at a bash prommpt:\n"
+echo "bash -c 'for i in {1..$nscripts}; do sbatch $script\$i.sh; done'"

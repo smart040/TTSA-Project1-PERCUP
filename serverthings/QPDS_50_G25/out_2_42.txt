@@ -1,0 +1,2 @@
+False
+Noisy Quasiperiodicity Score: 0

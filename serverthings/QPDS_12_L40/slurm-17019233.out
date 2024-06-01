@@ -1,0 +1,7 @@
+srun: error: Slurm job 17019233 has expired
+srun: Check SLURM_JOB_ID environment variable. Expired or invalid job 17019233
+srun: error: Slurm job 17019233 has expired
+srun: Check SLURM_JOB_ID environment variable. Expired or invalid job 17019233
+srun: error: Slurm job 17019233 has expired
+srun: Check SLURM_JOB_ID environment variable. Expired or invalid job 17019233
+slurmstepd: error: *** JOB 17019233 ON a344 CANCELLED AT 2024-05-29T18:59:52 ***

@@ -1,0 +1,1000 @@
+Traceback (most recent call last):
+  File "/scratch/negishi/mart1789/QPDS_50_noise1/QPDS_50_noise1.py", line 73, in <module>
+    plt.savefig('./signals_25_noise1/'+str(power)+"_"+str(base)+"_"+"SignalsPics.pdf", dpi=150)
+  File "/apps/spack/negishi/apps/anaconda/2024.02-py311-gcc-8.5.0-lr57z2f/lib/python3.11/site-packages/matplotlib/pyplot.py", line 1119, in savefig
+    res = fig.savefig(*args, **kwargs)  # type: ignore[func-returns-value]
+          ^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/apps/spack/negishi/apps/anaconda/2024.02-py311-gcc-8.5.0-lr57z2f/lib/python3.11/site-packages/matplotlib/figure.py", line 3390, in savefig
+    self.canvas.print_figure(fname, **kwargs)
+  File "/apps/spack/negishi/apps/anaconda/2024.02-py311-gcc-8.5.0-lr57z2f/lib/python3.11/site-packages/matplotlib/backend_bases.py", line 2187, in print_figure
+    result = print_method(
+             ^^^^^^^^^^^^^
+  File "/apps/spack/negishi/apps/anaconda/2024.02-py311-gcc-8.5.0-lr57z2f/lib/python3.11/site-packages/matplotlib/backend_bases.py", line 2043, in <lambda>
+    print_method = functools.wraps(meth)(lambda *args, **kwargs: meth(
+                                                                 ^^^^^
+  File "/apps/spack/negishi/apps/anaconda/2024.02-py311-gcc-8.5.0-lr57z2f/lib/python3.11/site-packages/matplotlib/backends/backend_pdf.py", line 2800, in print_pdf
+    file = PdfFile(filename, metadata=metadata)
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/apps/spack/negishi/apps/anaconda/2024.02-py311-gcc-8.5.0-lr57z2f/lib/python3.11/site-packages/matplotlib/backends/backend_pdf.py", line 688, in __init__
+    fh, opened = cbook.to_filehandle(filename, "wb", return_opened=True)
+                 ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/apps/spack/negishi/apps/anaconda/2024.02-py311-gcc-8.5.0-lr57z2f/lib/python3.11/site-packages/matplotlib/cbook.py", line 483, in to_filehandle
+    fh = open(fname, flag, encoding=encoding)
+         ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+FileNotFoundError: [Errno 2] No such file or directory: './signals_25_noise1/3_13_SignalsPics.pdf'
+srun: error: a135: task 0: Exited with exit code 1
+Traceback (most recent call last):
+  File "/scratch/negishi/mart1789/QPDS_50_noise1/QPDS_50_noise1.py", line 73, in <module>
+    plt.savefig('./signals_25_noise1/'+str(power)+"_"+str(base)+"_"+"SignalsPics.pdf", dpi=150)
+  File "/apps/spack/negishi/apps/anaconda/2024.02-py311-gcc-8.5.0-lr57z2f/lib/python3.11/site-packages/matplotlib/pyplot.py", line 1119, in savefig
+    res = fig.savefig(*args, **kwargs)  # type: ignore[func-returns-value]
+          ^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/apps/spack/negishi/apps/anaconda/2024.02-py311-gcc-8.5.0-lr57z2f/lib/python3.11/site-packages/matplotlib/figure.py", line 3390, in savefig
+    self.canvas.print_figure(fname, **kwargs)
+  File "/apps/spack/negishi/apps/anaconda/2024.02-py311-gcc-8.5.0-lr57z2f/lib/python3.11/site-packages/matplotlib/backend_bases.py", line 2187, in print_figure
+    result = print_method(
+             ^^^^^^^^^^^^^
+  File "/apps/spack/negishi/apps/anaconda/2024.02-py311-gcc-8.5.0-lr57z2f/lib/python3.11/site-packages/matplotlib/backend_bases.py", line 2043, in <lambda>
+    print_method = functools.wraps(meth)(lambda *args, **kwargs: meth(
+                                                                 ^^^^^
+  File "/apps/spack/negishi/apps/anaconda/2024.02-py311-gcc-8.5.0-lr57z2f/lib/python3.11/site-packages/matplotlib/backends/backend_pdf.py", line 2800, in print_pdf
+    file = PdfFile(filename, metadata=metadata)
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/apps/spack/negishi/apps/anaconda/2024.02-py311-gcc-8.5.0-lr57z2f/lib/python3.11/site-packages/matplotlib/backends/backend_pdf.py", line 688, in __init__
+    fh, opened = cbook.to_filehandle(filename, "wb", return_opened=True)
+                 ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/apps/spack/negishi/apps/anaconda/2024.02-py311-gcc-8.5.0-lr57z2f/lib/python3.11/site-packages/matplotlib/cbook.py", line 483, in to_filehandle
+    fh = open(fname, flag, encoding=encoding)
+         ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+FileNotFoundError: [Errno 2] No such file or directory: './signals_25_noise1/3_25_SignalsPics.pdf'
+srun: error: a164: task 0: Exited with exit code 1
+Traceback (most recent call last):
+  File "/scratch/negishi/mart1789/QPDS_50_noise1/QPDS_50_noise1.py", line 73, in <module>
+    plt.savefig('./signals_25_noise1/'+str(power)+"_"+str(base)+"_"+"SignalsPics.pdf", dpi=150)
+  File "/apps/spack/negishi/apps/anaconda/2024.02-py311-gcc-8.5.0-lr57z2f/lib/python3.11/site-packages/matplotlib/pyplot.py", line 1119, in savefig
+    res = fig.savefig(*args, **kwargs)  # type: ignore[func-returns-value]
+          ^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/apps/spack/negishi/apps/anaconda/2024.02-py311-gcc-8.5.0-lr57z2f/lib/python3.11/site-packages/matplotlib/figure.py", line 3390, in savefig
+    self.canvas.print_figure(fname, **kwargs)
+  File "/apps/spack/negishi/apps/anaconda/2024.02-py311-gcc-8.5.0-lr57z2f/lib/python3.11/site-packages/matplotlib/backend_bases.py", line 2187, in print_figure
+    result = print_method(
+             ^^^^^^^^^^^^^
+  File "/apps/spack/negishi/apps/anaconda/2024.02-py311-gcc-8.5.0-lr57z2f/lib/python3.11/site-packages/matplotlib/backend_bases.py", line 2043, in <lambda>
+    print_method = functools.wraps(meth)(lambda *args, **kwargs: meth(
+                                                                 ^^^^^
+  File "/apps/spack/negishi/apps/anaconda/2024.02-py311-gcc-8.5.0-lr57z2f/lib/python3.11/site-packages/matplotlib/backends/backend_pdf.py", line 2800, in print_pdf
+    file = PdfFile(filename, metadata=metadata)
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/apps/spack/negishi/apps/anaconda/2024.02-py311-gcc-8.5.0-lr57z2f/lib/python3.11/site-packages/matplotlib/backends/backend_pdf.py", line 688, in __init__
+    fh, opened = cbook.to_filehandle(filename, "wb", return_opened=True)
+                 ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/apps/spack/negishi/apps/anaconda/2024.02-py311-gcc-8.5.0-lr57z2f/lib/python3.11/site-packages/matplotlib/cbook.py", line 483, in to_filehandle
+    fh = open(fname, flag, encoding=encoding)
+         ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+FileNotFoundError: [Errno 2] No such file or directory: './signals_25_noise1/3_19_SignalsPics.pdf'
+srun: error: a126: task 0: Exited with exit code 1
+Traceback (most recent call last):
+  File "/scratch/negishi/mart1789/QPDS_50_noise1/QPDS_50_noise1.py", line 73, in <module>
+    plt.savefig('./signals_25_noise1/'+str(power)+"_"+str(base)+"_"+"SignalsPics.pdf", dpi=150)
+  File "/apps/spack/negishi/apps/anaconda/2024.02-py311-gcc-8.5.0-lr57z2f/lib/python3.11/site-packages/matplotlib/pyplot.py", line 1119, in savefig
+    res = fig.savefig(*args, **kwargs)  # type: ignore[func-returns-value]
+          ^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/apps/spack/negishi/apps/anaconda/2024.02-py311-gcc-8.5.0-lr57z2f/lib/python3.11/site-packages/matplotlib/figure.py", line 3390, in savefig
+    self.canvas.print_figure(fname, **kwargs)
+  File "/apps/spack/negishi/apps/anaconda/2024.02-py311-gcc-8.5.0-lr57z2f/lib/python3.11/site-packages/matplotlib/backend_bases.py", line 2187, in print_figure
+    result = print_method(
+             ^^^^^^^^^^^^^
+  File "/apps/spack/negishi/apps/anaconda/2024.02-py311-gcc-8.5.0-lr57z2f/lib/python3.11/site-packages/matplotlib/backend_bases.py", line 2043, in <lambda>
+    print_method = functools.wraps(meth)(lambda *args, **kwargs: meth(
+                                                                 ^^^^^
+  File "/apps/spack/negishi/apps/anaconda/2024.02-py311-gcc-8.5.0-lr57z2f/lib/python3.11/site-packages/matplotlib/backends/backend_pdf.py", line 2800, in print_pdf
+    file = PdfFile(filename, metadata=metadata)
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/apps/spack/negishi/apps/anaconda/2024.02-py311-gcc-8.5.0-lr57z2f/lib/python3.11/site-packages/matplotlib/backends/backend_pdf.py", line 688, in __init__
+    fh, opened = cbook.to_filehandle(filename, "wb", return_opened=True)
+                 ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/apps/spack/negishi/apps/anaconda/2024.02-py311-gcc-8.5.0-lr57z2f/lib/python3.11/site-packages/matplotlib/cbook.py", line 483, in to_filehandle
+    fh = open(fname, flag, encoding=encoding)
+         ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+FileNotFoundError: [Errno 2] No such file or directory: './signals_25_noise1/3_20_SignalsPics.pdf'
+srun: error: a126: task 0: Exited with exit code 1
+Traceback (most recent call last):
+  File "/scratch/negishi/mart1789/QPDS_50_noise1/QPDS_50_noise1.py", line 73, in <module>
+    plt.savefig('./signals_25_noise1/'+str(power)+"_"+str(base)+"_"+"SignalsPics.pdf", dpi=150)
+  File "/apps/spack/negishi/apps/anaconda/2024.02-py311-gcc-8.5.0-lr57z2f/lib/python3.11/site-packages/matplotlib/pyplot.py", line 1119, in savefig
+    res = fig.savefig(*args, **kwargs)  # type: ignore[func-returns-value]
+          ^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/apps/spack/negishi/apps/anaconda/2024.02-py311-gcc-8.5.0-lr57z2f/lib/python3.11/site-packages/matplotlib/figure.py", line 3390, in savefig
+    self.canvas.print_figure(fname, **kwargs)
+  File "/apps/spack/negishi/apps/anaconda/2024.02-py311-gcc-8.5.0-lr57z2f/lib/python3.11/site-packages/matplotlib/backend_bases.py", line 2187, in print_figure
+    result = print_method(
+             ^^^^^^^^^^^^^
+  File "/apps/spack/negishi/apps/anaconda/2024.02-py311-gcc-8.5.0-lr57z2f/lib/python3.11/site-packages/matplotlib/backend_bases.py", line 2043, in <lambda>
+    print_method = functools.wraps(meth)(lambda *args, **kwargs: meth(
+                                                                 ^^^^^
+  File "/apps/spack/negishi/apps/anaconda/2024.02-py311-gcc-8.5.0-lr57z2f/lib/python3.11/site-packages/matplotlib/backends/backend_pdf.py", line 2800, in print_pdf
+    file = PdfFile(filename, metadata=metadata)
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/apps/spack/negishi/apps/anaconda/2024.02-py311-gcc-8.5.0-lr57z2f/lib/python3.11/site-packages/matplotlib/backends/backend_pdf.py", line 688, in __init__
+    fh, opened = cbook.to_filehandle(filename, "wb", return_opened=True)
+                 ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/apps/spack/negishi/apps/anaconda/2024.02-py311-gcc-8.5.0-lr57z2f/lib/python3.11/site-packages/matplotlib/cbook.py", line 483, in to_filehandle
+    fh = open(fname, flag, encoding=encoding)
+         ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+FileNotFoundError: [Errno 2] No such file or directory: './signals_25_noise1/3_21_SignalsPics.pdf'
+srun: error: a126: task 0: Exited with exit code 1
+Traceback (most recent call last):
+  File "/scratch/negishi/mart1789/QPDS_50_noise1/QPDS_50_noise1.py", line 73, in <module>
+    plt.savefig('./signals_25_noise1/'+str(power)+"_"+str(base)+"_"+"SignalsPics.pdf", dpi=150)
+  File "/apps/spack/negishi/apps/anaconda/2024.02-py311-gcc-8.5.0-lr57z2f/lib/python3.11/site-packages/matplotlib/pyplot.py", line 1119, in savefig
+    res = fig.savefig(*args, **kwargs)  # type: ignore[func-returns-value]
+          ^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/apps/spack/negishi/apps/anaconda/2024.02-py311-gcc-8.5.0-lr57z2f/lib/python3.11/site-packages/matplotlib/figure.py", line 3390, in savefig
+    self.canvas.print_figure(fname, **kwargs)
+  File "/apps/spack/negishi/apps/anaconda/2024.02-py311-gcc-8.5.0-lr57z2f/lib/python3.11/site-packages/matplotlib/backend_bases.py", line 2187, in print_figure
+    result = print_method(
+             ^^^^^^^^^^^^^
+  File "/apps/spack/negishi/apps/anaconda/2024.02-py311-gcc-8.5.0-lr57z2f/lib/python3.11/site-packages/matplotlib/backend_bases.py", line 2043, in <lambda>
+    print_method = functools.wraps(meth)(lambda *args, **kwargs: meth(
+                                                                 ^^^^^
+  File "/apps/spack/negishi/apps/anaconda/2024.02-py311-gcc-8.5.0-lr57z2f/lib/python3.11/site-packages/matplotlib/backends/backend_pdf.py", line 2800, in print_pdf
+    file = PdfFile(filename, metadata=metadata)
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/apps/spack/negishi/apps/anaconda/2024.02-py311-gcc-8.5.0-lr57z2f/lib/python3.11/site-packages/matplotlib/backends/backend_pdf.py", line 688, in __init__
+    fh, opened = cbook.to_filehandle(filename, "wb", return_opened=True)
+                 ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/apps/spack/negishi/apps/anaconda/2024.02-py311-gcc-8.5.0-lr57z2f/lib/python3.11/site-packages/matplotlib/cbook.py", line 483, in to_filehandle
+    fh = open(fname, flag, encoding=encoding)
+         ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+FileNotFoundError: [Errno 2] No such file or directory: './signals_25_noise1/3_22_SignalsPics.pdf'
+srun: error: a126: task 0: Exited with exit code 1
+Traceback (most recent call last):
+  File "/scratch/negishi/mart1789/QPDS_50_noise1/QPDS_50_noise1.py", line 73, in <module>
+    plt.savefig('./signals_25_noise1/'+str(power)+"_"+str(base)+"_"+"SignalsPics.pdf", dpi=150)
+  File "/apps/spack/negishi/apps/anaconda/2024.02-py311-gcc-8.5.0-lr57z2f/lib/python3.11/site-packages/matplotlib/pyplot.py", line 1119, in savefig
+    res = fig.savefig(*args, **kwargs)  # type: ignore[func-returns-value]
+          ^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/apps/spack/negishi/apps/anaconda/2024.02-py311-gcc-8.5.0-lr57z2f/lib/python3.11/site-packages/matplotlib/figure.py", line 3390, in savefig
+    self.canvas.print_figure(fname, **kwargs)
+  File "/apps/spack/negishi/apps/anaconda/2024.02-py311-gcc-8.5.0-lr57z2f/lib/python3.11/site-packages/matplotlib/backend_bases.py", line 2187, in print_figure
+    result = print_method(
+             ^^^^^^^^^^^^^
+  File "/apps/spack/negishi/apps/anaconda/2024.02-py311-gcc-8.5.0-lr57z2f/lib/python3.11/site-packages/matplotlib/backend_bases.py", line 2043, in <lambda>
+    print_method = functools.wraps(meth)(lambda *args, **kwargs: meth(
+                                                                 ^^^^^
+  File "/apps/spack/negishi/apps/anaconda/2024.02-py311-gcc-8.5.0-lr57z2f/lib/python3.11/site-packages/matplotlib/backends/backend_pdf.py", line 2800, in print_pdf
+    file = PdfFile(filename, metadata=metadata)
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/apps/spack/negishi/apps/anaconda/2024.02-py311-gcc-8.5.0-lr57z2f/lib/python3.11/site-packages/matplotlib/backends/backend_pdf.py", line 688, in __init__
+    fh, opened = cbook.to_filehandle(filename, "wb", return_opened=True)
+                 ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/apps/spack/negishi/apps/anaconda/2024.02-py311-gcc-8.5.0-lr57z2f/lib/python3.11/site-packages/matplotlib/cbook.py", line 483, in to_filehandle
+    fh = open(fname, flag, encoding=encoding)
+         ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+FileNotFoundError: [Errno 2] No such file or directory: './signals_25_noise1/3_24_SignalsPics.pdf'
+srun: error: a129: task 0: Exited with exit code 1
+Traceback (most recent call last):
+  File "/scratch/negishi/mart1789/QPDS_50_noise1/QPDS_50_noise1.py", line 73, in <module>
+    plt.savefig('./signals_25_noise1/'+str(power)+"_"+str(base)+"_"+"SignalsPics.pdf", dpi=150)
+  File "/apps/spack/negishi/apps/anaconda/2024.02-py311-gcc-8.5.0-lr57z2f/lib/python3.11/site-packages/matplotlib/pyplot.py", line 1119, in savefig
+    res = fig.savefig(*args, **kwargs)  # type: ignore[func-returns-value]
+          ^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/apps/spack/negishi/apps/anaconda/2024.02-py311-gcc-8.5.0-lr57z2f/lib/python3.11/site-packages/matplotlib/figure.py", line 3390, in savefig
+    self.canvas.print_figure(fname, **kwargs)
+  File "/apps/spack/negishi/apps/anaconda/2024.02-py311-gcc-8.5.0-lr57z2f/lib/python3.11/site-packages/matplotlib/backend_bases.py", line 2187, in print_figure
+    result = print_method(
+             ^^^^^^^^^^^^^
+  File "/apps/spack/negishi/apps/anaconda/2024.02-py311-gcc-8.5.0-lr57z2f/lib/python3.11/site-packages/matplotlib/backend_bases.py", line 2043, in <lambda>
+    print_method = functools.wraps(meth)(lambda *args, **kwargs: meth(
+                                                                 ^^^^^
+  File "/apps/spack/negishi/apps/anaconda/2024.02-py311-gcc-8.5.0-lr57z2f/lib/python3.11/site-packages/matplotlib/backends/backend_pdf.py", line 2800, in print_pdf
+    file = PdfFile(filename, metadata=metadata)
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/apps/spack/negishi/apps/anaconda/2024.02-py311-gcc-8.5.0-lr57z2f/lib/python3.11/site-packages/matplotlib/backends/backend_pdf.py", line 688, in __init__
+    fh, opened = cbook.to_filehandle(filename, "wb", return_opened=True)
+                 ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/apps/spack/negishi/apps/anaconda/2024.02-py311-gcc-8.5.0-lr57z2f/lib/python3.11/site-packages/matplotlib/cbook.py", line 483, in to_filehandle
+    fh = open(fname, flag, encoding=encoding)
+         ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+FileNotFoundError: [Errno 2] No such file or directory: './signals_25_noise1/3_12_SignalsPics.pdf'
+srun: error: a129: task 0: Exited with exit code 1
+Traceback (most recent call last):
+  File "/scratch/negishi/mart1789/QPDS_50_noise1/QPDS_50_noise1.py", line 73, in <module>
+    plt.savefig('./signals_25_noise1/'+str(power)+"_"+str(base)+"_"+"SignalsPics.pdf", dpi=150)
+  File "/apps/spack/negishi/apps/anaconda/2024.02-py311-gcc-8.5.0-lr57z2f/lib/python3.11/site-packages/matplotlib/pyplot.py", line 1119, in savefig
+    res = fig.savefig(*args, **kwargs)  # type: ignore[func-returns-value]
+          ^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/apps/spack/negishi/apps/anaconda/2024.02-py311-gcc-8.5.0-lr57z2f/lib/python3.11/site-packages/matplotlib/figure.py", line 3390, in savefig
+    self.canvas.print_figure(fname, **kwargs)
+  File "/apps/spack/negishi/apps/anaconda/2024.02-py311-gcc-8.5.0-lr57z2f/lib/python3.11/site-packages/matplotlib/backend_bases.py", line 2187, in print_figure
+    result = print_method(
+             ^^^^^^^^^^^^^
+  File "/apps/spack/negishi/apps/anaconda/2024.02-py311-gcc-8.5.0-lr57z2f/lib/python3.11/site-packages/matplotlib/backend_bases.py", line 2043, in <lambda>
+    print_method = functools.wraps(meth)(lambda *args, **kwargs: meth(
+                                                                 ^^^^^
+  File "/apps/spack/negishi/apps/anaconda/2024.02-py311-gcc-8.5.0-lr57z2f/lib/python3.11/site-packages/matplotlib/backends/backend_pdf.py", line 2800, in print_pdf
+    file = PdfFile(filename, metadata=metadata)
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/apps/spack/negishi/apps/anaconda/2024.02-py311-gcc-8.5.0-lr57z2f/lib/python3.11/site-packages/matplotlib/backends/backend_pdf.py", line 688, in __init__
+    fh, opened = cbook.to_filehandle(filename, "wb", return_opened=True)
+                 ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/apps/spack/negishi/apps/anaconda/2024.02-py311-gcc-8.5.0-lr57z2f/lib/python3.11/site-packages/matplotlib/cbook.py", line 483, in to_filehandle
+    fh = open(fname, flag, encoding=encoding)
+         ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+FileNotFoundError: [Errno 2] No such file or directory: './signals_25_noise1/3_18_SignalsPics.pdf'
+srun: error: a129: task 0: Exited with exit code 1
+Traceback (most recent call last):
+  File "/scratch/negishi/mart1789/QPDS_50_noise1/QPDS_50_noise1.py", line 73, in <module>
+    plt.savefig('./signals_25_noise1/'+str(power)+"_"+str(base)+"_"+"SignalsPics.pdf", dpi=150)
+  File "/apps/spack/negishi/apps/anaconda/2024.02-py311-gcc-8.5.0-lr57z2f/lib/python3.11/site-packages/matplotlib/pyplot.py", line 1119, in savefig
+    res = fig.savefig(*args, **kwargs)  # type: ignore[func-returns-value]
+          ^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/apps/spack/negishi/apps/anaconda/2024.02-py311-gcc-8.5.0-lr57z2f/lib/python3.11/site-packages/matplotlib/figure.py", line 3390, in savefig
+    self.canvas.print_figure(fname, **kwargs)
+  File "/apps/spack/negishi/apps/anaconda/2024.02-py311-gcc-8.5.0-lr57z2f/lib/python3.11/site-packages/matplotlib/backend_bases.py", line 2187, in print_figure
+    result = print_method(
+             ^^^^^^^^^^^^^
+  File "/apps/spack/negishi/apps/anaconda/2024.02-py311-gcc-8.5.0-lr57z2f/lib/python3.11/site-packages/matplotlib/backend_bases.py", line 2043, in <lambda>
+    print_method = functools.wraps(meth)(lambda *args, **kwargs: meth(
+                                                                 ^^^^^
+  File "/apps/spack/negishi/apps/anaconda/2024.02-py311-gcc-8.5.0-lr57z2f/lib/python3.11/site-packages/matplotlib/backends/backend_pdf.py", line 2800, in print_pdf
+    file = PdfFile(filename, metadata=metadata)
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/apps/spack/negishi/apps/anaconda/2024.02-py311-gcc-8.5.0-lr57z2f/lib/python3.11/site-packages/matplotlib/backends/backend_pdf.py", line 688, in __init__
+    fh, opened = cbook.to_filehandle(filename, "wb", return_opened=True)
+                 ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/apps/spack/negishi/apps/anaconda/2024.02-py311-gcc-8.5.0-lr57z2f/lib/python3.11/site-packages/matplotlib/cbook.py", line 483, in to_filehandle
+    fh = open(fname, flag, encoding=encoding)
+         ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+FileNotFoundError: [Errno 2] No such file or directory: './signals_25_noise1/3_23_SignalsPics.pdf'
+srun: error: a129: task 0: Exited with exit code 1
+Traceback (most recent call last):
+  File "/scratch/negishi/mart1789/QPDS_50_noise1/QPDS_50_noise1.py", line 73, in <module>
+    plt.savefig('./signals_25_noise1/'+str(power)+"_"+str(base)+"_"+"SignalsPics.pdf", dpi=150)
+  File "/apps/spack/negishi/apps/anaconda/2024.02-py311-gcc-8.5.0-lr57z2f/lib/python3.11/site-packages/matplotlib/pyplot.py", line 1119, in savefig
+    res = fig.savefig(*args, **kwargs)  # type: ignore[func-returns-value]
+          ^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/apps/spack/negishi/apps/anaconda/2024.02-py311-gcc-8.5.0-lr57z2f/lib/python3.11/site-packages/matplotlib/figure.py", line 3390, in savefig
+    self.canvas.print_figure(fname, **kwargs)
+  File "/apps/spack/negishi/apps/anaconda/2024.02-py311-gcc-8.5.0-lr57z2f/lib/python3.11/site-packages/matplotlib/backend_bases.py", line 2187, in print_figure
+    result = print_method(
+             ^^^^^^^^^^^^^
+  File "/apps/spack/negishi/apps/anaconda/2024.02-py311-gcc-8.5.0-lr57z2f/lib/python3.11/site-packages/matplotlib/backend_bases.py", line 2043, in <lambda>
+    print_method = functools.wraps(meth)(lambda *args, **kwargs: meth(
+                                                                 ^^^^^
+  File "/apps/spack/negishi/apps/anaconda/2024.02-py311-gcc-8.5.0-lr57z2f/lib/python3.11/site-packages/matplotlib/backends/backend_pdf.py", line 2800, in print_pdf
+    file = PdfFile(filename, metadata=metadata)
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/apps/spack/negishi/apps/anaconda/2024.02-py311-gcc-8.5.0-lr57z2f/lib/python3.11/site-packages/matplotlib/backends/backend_pdf.py", line 688, in __init__
+    fh, opened = cbook.to_filehandle(filename, "wb", return_opened=True)
+                 ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/apps/spack/negishi/apps/anaconda/2024.02-py311-gcc-8.5.0-lr57z2f/lib/python3.11/site-packages/matplotlib/cbook.py", line 483, in to_filehandle
+    fh = open(fname, flag, encoding=encoding)
+         ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+FileNotFoundError: [Errno 2] No such file or directory: './signals_25_noise1/3_14_SignalsPics.pdf'
+srun: error: a123: task 0: Exited with exit code 1
+Traceback (most recent call last):
+  File "/scratch/negishi/mart1789/QPDS_50_noise1/QPDS_50_noise1.py", line 73, in <module>
+    plt.savefig('./signals_25_noise1/'+str(power)+"_"+str(base)+"_"+"SignalsPics.pdf", dpi=150)
+  File "/apps/spack/negishi/apps/anaconda/2024.02-py311-gcc-8.5.0-lr57z2f/lib/python3.11/site-packages/matplotlib/pyplot.py", line 1119, in savefig
+    res = fig.savefig(*args, **kwargs)  # type: ignore[func-returns-value]
+          ^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/apps/spack/negishi/apps/anaconda/2024.02-py311-gcc-8.5.0-lr57z2f/lib/python3.11/site-packages/matplotlib/figure.py", line 3390, in savefig
+    self.canvas.print_figure(fname, **kwargs)
+  File "/apps/spack/negishi/apps/anaconda/2024.02-py311-gcc-8.5.0-lr57z2f/lib/python3.11/site-packages/matplotlib/backend_bases.py", line 2187, in print_figure
+    result = print_method(
+             ^^^^^^^^^^^^^
+  File "/apps/spack/negishi/apps/anaconda/2024.02-py311-gcc-8.5.0-lr57z2f/lib/python3.11/site-packages/matplotlib/backend_bases.py", line 2043, in <lambda>
+    print_method = functools.wraps(meth)(lambda *args, **kwargs: meth(
+                                                                 ^^^^^
+  File "/apps/spack/negishi/apps/anaconda/2024.02-py311-gcc-8.5.0-lr57z2f/lib/python3.11/site-packages/matplotlib/backends/backend_pdf.py", line 2800, in print_pdf
+    file = PdfFile(filename, metadata=metadata)
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/apps/spack/negishi/apps/anaconda/2024.02-py311-gcc-8.5.0-lr57z2f/lib/python3.11/site-packages/matplotlib/backends/backend_pdf.py", line 688, in __init__
+    fh, opened = cbook.to_filehandle(filename, "wb", return_opened=True)
+                 ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/apps/spack/negishi/apps/anaconda/2024.02-py311-gcc-8.5.0-lr57z2f/lib/python3.11/site-packages/matplotlib/cbook.py", line 483, in to_filehandle
+    fh = open(fname, flag, encoding=encoding)
+         ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+FileNotFoundError: [Errno 2] No such file or directory: './signals_25_noise1/3_16_SignalsPics.pdf'
+srun: error: a123: task 0: Exited with exit code 1
+Traceback (most recent call last):
+  File "/scratch/negishi/mart1789/QPDS_50_noise1/QPDS_50_noise1.py", line 73, in <module>
+    plt.savefig('./signals_25_noise1/'+str(power)+"_"+str(base)+"_"+"SignalsPics.pdf", dpi=150)
+  File "/apps/spack/negishi/apps/anaconda/2024.02-py311-gcc-8.5.0-lr57z2f/lib/python3.11/site-packages/matplotlib/pyplot.py", line 1119, in savefig
+    res = fig.savefig(*args, **kwargs)  # type: ignore[func-returns-value]
+          ^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/apps/spack/negishi/apps/anaconda/2024.02-py311-gcc-8.5.0-lr57z2f/lib/python3.11/site-packages/matplotlib/figure.py", line 3390, in savefig
+    self.canvas.print_figure(fname, **kwargs)
+  File "/apps/spack/negishi/apps/anaconda/2024.02-py311-gcc-8.5.0-lr57z2f/lib/python3.11/site-packages/matplotlib/backend_bases.py", line 2187, in print_figure
+    result = print_method(
+             ^^^^^^^^^^^^^
+  File "/apps/spack/negishi/apps/anaconda/2024.02-py311-gcc-8.5.0-lr57z2f/lib/python3.11/site-packages/matplotlib/backend_bases.py", line 2043, in <lambda>
+    print_method = functools.wraps(meth)(lambda *args, **kwargs: meth(
+                                                                 ^^^^^
+  File "/apps/spack/negishi/apps/anaconda/2024.02-py311-gcc-8.5.0-lr57z2f/lib/python3.11/site-packages/matplotlib/backends/backend_pdf.py", line 2800, in print_pdf
+    file = PdfFile(filename, metadata=metadata)
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/apps/spack/negishi/apps/anaconda/2024.02-py311-gcc-8.5.0-lr57z2f/lib/python3.11/site-packages/matplotlib/backends/backend_pdf.py", line 688, in __init__
+    fh, opened = cbook.to_filehandle(filename, "wb", return_opened=True)
+                 ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/apps/spack/negishi/apps/anaconda/2024.02-py311-gcc-8.5.0-lr57z2f/lib/python3.11/site-packages/matplotlib/cbook.py", line 483, in to_filehandle
+    fh = open(fname, flag, encoding=encoding)
+         ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+FileNotFoundError: [Errno 2] No such file or directory: './signals_25_noise1/3_17_SignalsPics.pdf'
+srun: error: a123: task 0: Exited with exit code 1
+Traceback (most recent call last):
+  File "/scratch/negishi/mart1789/QPDS_50_noise1/QPDS_50_noise1.py", line 73, in <module>
+    plt.savefig('./signals_25_noise1/'+str(power)+"_"+str(base)+"_"+"SignalsPics.pdf", dpi=150)
+  File "/apps/spack/negishi/apps/anaconda/2024.02-py311-gcc-8.5.0-lr57z2f/lib/python3.11/site-packages/matplotlib/pyplot.py", line 1119, in savefig
+    res = fig.savefig(*args, **kwargs)  # type: ignore[func-returns-value]
+          ^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/apps/spack/negishi/apps/anaconda/2024.02-py311-gcc-8.5.0-lr57z2f/lib/python3.11/site-packages/matplotlib/figure.py", line 3390, in savefig
+    self.canvas.print_figure(fname, **kwargs)
+  File "/apps/spack/negishi/apps/anaconda/2024.02-py311-gcc-8.5.0-lr57z2f/lib/python3.11/site-packages/matplotlib/backend_bases.py", line 2187, in print_figure
+    result = print_method(
+             ^^^^^^^^^^^^^
+  File "/apps/spack/negishi/apps/anaconda/2024.02-py311-gcc-8.5.0-lr57z2f/lib/python3.11/site-packages/matplotlib/backend_bases.py", line 2043, in <lambda>
+    print_method = functools.wraps(meth)(lambda *args, **kwargs: meth(
+                                                                 ^^^^^
+  File "/apps/spack/negishi/apps/anaconda/2024.02-py311-gcc-8.5.0-lr57z2f/lib/python3.11/site-packages/matplotlib/backends/backend_pdf.py", line 2800, in print_pdf
+    file = PdfFile(filename, metadata=metadata)
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/apps/spack/negishi/apps/anaconda/2024.02-py311-gcc-8.5.0-lr57z2f/lib/python3.11/site-packages/matplotlib/backends/backend_pdf.py", line 688, in __init__
+    fh, opened = cbook.to_filehandle(filename, "wb", return_opened=True)
+                 ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/apps/spack/negishi/apps/anaconda/2024.02-py311-gcc-8.5.0-lr57z2f/lib/python3.11/site-packages/matplotlib/cbook.py", line 483, in to_filehandle
+    fh = open(fname, flag, encoding=encoding)
+         ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+FileNotFoundError: [Errno 2] No such file or directory: './signals_25_noise1/3_11_SignalsPics.pdf'
+srun: error: a123: task 0: Exited with exit code 1
+Traceback (most recent call last):
+  File "/scratch/negishi/mart1789/QPDS_50_noise1/QPDS_50_noise1.py", line 73, in <module>
+    plt.savefig('./signals_25_noise1/'+str(power)+"_"+str(base)+"_"+"SignalsPics.pdf", dpi=150)
+  File "/apps/spack/negishi/apps/anaconda/2024.02-py311-gcc-8.5.0-lr57z2f/lib/python3.11/site-packages/matplotlib/pyplot.py", line 1119, in savefig
+    res = fig.savefig(*args, **kwargs)  # type: ignore[func-returns-value]
+          ^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/apps/spack/negishi/apps/anaconda/2024.02-py311-gcc-8.5.0-lr57z2f/lib/python3.11/site-packages/matplotlib/figure.py", line 3390, in savefig
+    self.canvas.print_figure(fname, **kwargs)
+  File "/apps/spack/negishi/apps/anaconda/2024.02-py311-gcc-8.5.0-lr57z2f/lib/python3.11/site-packages/matplotlib/backend_bases.py", line 2187, in print_figure
+    result = print_method(
+             ^^^^^^^^^^^^^
+  File "/apps/spack/negishi/apps/anaconda/2024.02-py311-gcc-8.5.0-lr57z2f/lib/python3.11/site-packages/matplotlib/backend_bases.py", line 2043, in <lambda>
+    print_method = functools.wraps(meth)(lambda *args, **kwargs: meth(
+                                                                 ^^^^^
+  File "/apps/spack/negishi/apps/anaconda/2024.02-py311-gcc-8.5.0-lr57z2f/lib/python3.11/site-packages/matplotlib/backends/backend_pdf.py", line 2800, in print_pdf
+    file = PdfFile(filename, metadata=metadata)
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/apps/spack/negishi/apps/anaconda/2024.02-py311-gcc-8.5.0-lr57z2f/lib/python3.11/site-packages/matplotlib/backends/backend_pdf.py", line 688, in __init__
+    fh, opened = cbook.to_filehandle(filename, "wb", return_opened=True)
+                 ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/apps/spack/negishi/apps/anaconda/2024.02-py311-gcc-8.5.0-lr57z2f/lib/python3.11/site-packages/matplotlib/cbook.py", line 483, in to_filehandle
+    fh = open(fname, flag, encoding=encoding)
+         ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+FileNotFoundError: [Errno 2] No such file or directory: './signals_25_noise1/3_15_SignalsPics.pdf'
+srun: error: a169: task 0: Exited with exit code 1
+Traceback (most recent call last):
+  File "/scratch/negishi/mart1789/QPDS_50_noise1/QPDS_50_noise1.py", line 73, in <module>
+    plt.savefig('./signals_25_noise1/'+str(power)+"_"+str(base)+"_"+"SignalsPics.pdf", dpi=150)
+  File "/apps/spack/negishi/apps/anaconda/2024.02-py311-gcc-8.5.0-lr57z2f/lib/python3.11/site-packages/matplotlib/pyplot.py", line 1119, in savefig
+    res = fig.savefig(*args, **kwargs)  # type: ignore[func-returns-value]
+          ^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/apps/spack/negishi/apps/anaconda/2024.02-py311-gcc-8.5.0-lr57z2f/lib/python3.11/site-packages/matplotlib/figure.py", line 3390, in savefig
+    self.canvas.print_figure(fname, **kwargs)
+  File "/apps/spack/negishi/apps/anaconda/2024.02-py311-gcc-8.5.0-lr57z2f/lib/python3.11/site-packages/matplotlib/backend_bases.py", line 2187, in print_figure
+    result = print_method(
+             ^^^^^^^^^^^^^
+  File "/apps/spack/negishi/apps/anaconda/2024.02-py311-gcc-8.5.0-lr57z2f/lib/python3.11/site-packages/matplotlib/backend_bases.py", line 2043, in <lambda>
+    print_method = functools.wraps(meth)(lambda *args, **kwargs: meth(
+                                                                 ^^^^^
+  File "/apps/spack/negishi/apps/anaconda/2024.02-py311-gcc-8.5.0-lr57z2f/lib/python3.11/site-packages/matplotlib/backends/backend_pdf.py", line 2800, in print_pdf
+    file = PdfFile(filename, metadata=metadata)
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/apps/spack/negishi/apps/anaconda/2024.02-py311-gcc-8.5.0-lr57z2f/lib/python3.11/site-packages/matplotlib/backends/backend_pdf.py", line 688, in __init__
+    fh, opened = cbook.to_filehandle(filename, "wb", return_opened=True)
+                 ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/apps/spack/negishi/apps/anaconda/2024.02-py311-gcc-8.5.0-lr57z2f/lib/python3.11/site-packages/matplotlib/cbook.py", line 483, in to_filehandle
+    fh = open(fname, flag, encoding=encoding)
+         ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+FileNotFoundError: [Errno 2] No such file or directory: './signals_25_noise1/3_26_SignalsPics.pdf'
+srun: error: a135: task 0: Exited with exit code 1
+Traceback (most recent call last):
+  File "/scratch/negishi/mart1789/QPDS_50_noise1/QPDS_50_noise1.py", line 73, in <module>
+    plt.savefig('./signals_25_noise1/'+str(power)+"_"+str(base)+"_"+"SignalsPics.pdf", dpi=150)
+  File "/apps/spack/negishi/apps/anaconda/2024.02-py311-gcc-8.5.0-lr57z2f/lib/python3.11/site-packages/matplotlib/pyplot.py", line 1119, in savefig
+    res = fig.savefig(*args, **kwargs)  # type: ignore[func-returns-value]
+          ^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/apps/spack/negishi/apps/anaconda/2024.02-py311-gcc-8.5.0-lr57z2f/lib/python3.11/site-packages/matplotlib/figure.py", line 3390, in savefig
+    self.canvas.print_figure(fname, **kwargs)
+  File "/apps/spack/negishi/apps/anaconda/2024.02-py311-gcc-8.5.0-lr57z2f/lib/python3.11/site-packages/matplotlib/backend_bases.py", line 2187, in print_figure
+    result = print_method(
+             ^^^^^^^^^^^^^
+  File "/apps/spack/negishi/apps/anaconda/2024.02-py311-gcc-8.5.0-lr57z2f/lib/python3.11/site-packages/matplotlib/backend_bases.py", line 2043, in <lambda>
+    print_method = functools.wraps(meth)(lambda *args, **kwargs: meth(
+                                                                 ^^^^^
+  File "/apps/spack/negishi/apps/anaconda/2024.02-py311-gcc-8.5.0-lr57z2f/lib/python3.11/site-packages/matplotlib/backends/backend_pdf.py", line 2800, in print_pdf
+    file = PdfFile(filename, metadata=metadata)
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/apps/spack/negishi/apps/anaconda/2024.02-py311-gcc-8.5.0-lr57z2f/lib/python3.11/site-packages/matplotlib/backends/backend_pdf.py", line 688, in __init__
+    fh, opened = cbook.to_filehandle(filename, "wb", return_opened=True)
+                 ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/apps/spack/negishi/apps/anaconda/2024.02-py311-gcc-8.5.0-lr57z2f/lib/python3.11/site-packages/matplotlib/cbook.py", line 483, in to_filehandle
+    fh = open(fname, flag, encoding=encoding)
+         ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+FileNotFoundError: [Errno 2] No such file or directory: './signals_25_noise1/3_27_SignalsPics.pdf'
+srun: error: a164: task 0: Exited with exit code 1
+Traceback (most recent call last):
+  File "/scratch/negishi/mart1789/QPDS_50_noise1/QPDS_50_noise1.py", line 73, in <module>
+    plt.savefig('./signals_25_noise1/'+str(power)+"_"+str(base)+"_"+"SignalsPics.pdf", dpi=150)
+  File "/apps/spack/negishi/apps/anaconda/2024.02-py311-gcc-8.5.0-lr57z2f/lib/python3.11/site-packages/matplotlib/pyplot.py", line 1119, in savefig
+    res = fig.savefig(*args, **kwargs)  # type: ignore[func-returns-value]
+          ^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/apps/spack/negishi/apps/anaconda/2024.02-py311-gcc-8.5.0-lr57z2f/lib/python3.11/site-packages/matplotlib/figure.py", line 3390, in savefig
+    self.canvas.print_figure(fname, **kwargs)
+  File "/apps/spack/negishi/apps/anaconda/2024.02-py311-gcc-8.5.0-lr57z2f/lib/python3.11/site-packages/matplotlib/backend_bases.py", line 2187, in print_figure
+    result = print_method(
+             ^^^^^^^^^^^^^
+  File "/apps/spack/negishi/apps/anaconda/2024.02-py311-gcc-8.5.0-lr57z2f/lib/python3.11/site-packages/matplotlib/backend_bases.py", line 2043, in <lambda>
+    print_method = functools.wraps(meth)(lambda *args, **kwargs: meth(
+                                                                 ^^^^^
+  File "/apps/spack/negishi/apps/anaconda/2024.02-py311-gcc-8.5.0-lr57z2f/lib/python3.11/site-packages/matplotlib/backends/backend_pdf.py", line 2800, in print_pdf
+    file = PdfFile(filename, metadata=metadata)
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/apps/spack/negishi/apps/anaconda/2024.02-py311-gcc-8.5.0-lr57z2f/lib/python3.11/site-packages/matplotlib/backends/backend_pdf.py", line 688, in __init__
+    fh, opened = cbook.to_filehandle(filename, "wb", return_opened=True)
+                 ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/apps/spack/negishi/apps/anaconda/2024.02-py311-gcc-8.5.0-lr57z2f/lib/python3.11/site-packages/matplotlib/cbook.py", line 483, in to_filehandle
+    fh = open(fname, flag, encoding=encoding)
+         ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+FileNotFoundError: [Errno 2] No such file or directory: './signals_25_noise1/3_29_SignalsPics.pdf'
+srun: error: a126: task 0: Exited with exit code 1
+Traceback (most recent call last):
+  File "/scratch/negishi/mart1789/QPDS_50_noise1/QPDS_50_noise1.py", line 73, in <module>
+    plt.savefig('./signals_25_noise1/'+str(power)+"_"+str(base)+"_"+"SignalsPics.pdf", dpi=150)
+  File "/apps/spack/negishi/apps/anaconda/2024.02-py311-gcc-8.5.0-lr57z2f/lib/python3.11/site-packages/matplotlib/pyplot.py", line 1119, in savefig
+    res = fig.savefig(*args, **kwargs)  # type: ignore[func-returns-value]
+          ^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/apps/spack/negishi/apps/anaconda/2024.02-py311-gcc-8.5.0-lr57z2f/lib/python3.11/site-packages/matplotlib/figure.py", line 3390, in savefig
+    self.canvas.print_figure(fname, **kwargs)
+  File "/apps/spack/negishi/apps/anaconda/2024.02-py311-gcc-8.5.0-lr57z2f/lib/python3.11/site-packages/matplotlib/backend_bases.py", line 2187, in print_figure
+    result = print_method(
+             ^^^^^^^^^^^^^
+  File "/apps/spack/negishi/apps/anaconda/2024.02-py311-gcc-8.5.0-lr57z2f/lib/python3.11/site-packages/matplotlib/backend_bases.py", line 2043, in <lambda>
+    print_method = functools.wraps(meth)(lambda *args, **kwargs: meth(
+                                                                 ^^^^^
+  File "/apps/spack/negishi/apps/anaconda/2024.02-py311-gcc-8.5.0-lr57z2f/lib/python3.11/site-packages/matplotlib/backends/backend_pdf.py", line 2800, in print_pdf
+    file = PdfFile(filename, metadata=metadata)
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/apps/spack/negishi/apps/anaconda/2024.02-py311-gcc-8.5.0-lr57z2f/lib/python3.11/site-packages/matplotlib/backends/backend_pdf.py", line 688, in __init__
+    fh, opened = cbook.to_filehandle(filename, "wb", return_opened=True)
+                 ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/apps/spack/negishi/apps/anaconda/2024.02-py311-gcc-8.5.0-lr57z2f/lib/python3.11/site-packages/matplotlib/cbook.py", line 483, in to_filehandle
+    fh = open(fname, flag, encoding=encoding)
+         ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+FileNotFoundError: [Errno 2] No such file or directory: './signals_25_noise1/3_28_SignalsPics.pdf'
+srun: error: a126: task 0: Exited with exit code 1
+Traceback (most recent call last):
+  File "/scratch/negishi/mart1789/QPDS_50_noise1/QPDS_50_noise1.py", line 73, in <module>
+    plt.savefig('./signals_25_noise1/'+str(power)+"_"+str(base)+"_"+"SignalsPics.pdf", dpi=150)
+  File "/apps/spack/negishi/apps/anaconda/2024.02-py311-gcc-8.5.0-lr57z2f/lib/python3.11/site-packages/matplotlib/pyplot.py", line 1119, in savefig
+    res = fig.savefig(*args, **kwargs)  # type: ignore[func-returns-value]
+          ^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/apps/spack/negishi/apps/anaconda/2024.02-py311-gcc-8.5.0-lr57z2f/lib/python3.11/site-packages/matplotlib/figure.py", line 3390, in savefig
+    self.canvas.print_figure(fname, **kwargs)
+  File "/apps/spack/negishi/apps/anaconda/2024.02-py311-gcc-8.5.0-lr57z2f/lib/python3.11/site-packages/matplotlib/backend_bases.py", line 2187, in print_figure
+    result = print_method(
+             ^^^^^^^^^^^^^
+  File "/apps/spack/negishi/apps/anaconda/2024.02-py311-gcc-8.5.0-lr57z2f/lib/python3.11/site-packages/matplotlib/backend_bases.py", line 2043, in <lambda>
+    print_method = functools.wraps(meth)(lambda *args, **kwargs: meth(
+                                                                 ^^^^^
+  File "/apps/spack/negishi/apps/anaconda/2024.02-py311-gcc-8.5.0-lr57z2f/lib/python3.11/site-packages/matplotlib/backends/backend_pdf.py", line 2800, in print_pdf
+    file = PdfFile(filename, metadata=metadata)
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/apps/spack/negishi/apps/anaconda/2024.02-py311-gcc-8.5.0-lr57z2f/lib/python3.11/site-packages/matplotlib/backends/backend_pdf.py", line 688, in __init__
+    fh, opened = cbook.to_filehandle(filename, "wb", return_opened=True)
+                 ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/apps/spack/negishi/apps/anaconda/2024.02-py311-gcc-8.5.0-lr57z2f/lib/python3.11/site-packages/matplotlib/cbook.py", line 483, in to_filehandle
+    fh = open(fname, flag, encoding=encoding)
+         ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+FileNotFoundError: [Errno 2] No such file or directory: './signals_25_noise1/3_30_SignalsPics.pdf'
+srun: error: a126: task 0: Exited with exit code 1
+Traceback (most recent call last):
+  File "/scratch/negishi/mart1789/QPDS_50_noise1/QPDS_50_noise1.py", line 73, in <module>
+    plt.savefig('./signals_25_noise1/'+str(power)+"_"+str(base)+"_"+"SignalsPics.pdf", dpi=150)
+  File "/apps/spack/negishi/apps/anaconda/2024.02-py311-gcc-8.5.0-lr57z2f/lib/python3.11/site-packages/matplotlib/pyplot.py", line 1119, in savefig
+    res = fig.savefig(*args, **kwargs)  # type: ignore[func-returns-value]
+          ^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/apps/spack/negishi/apps/anaconda/2024.02-py311-gcc-8.5.0-lr57z2f/lib/python3.11/site-packages/matplotlib/figure.py", line 3390, in savefig
+    self.canvas.print_figure(fname, **kwargs)
+  File "/apps/spack/negishi/apps/anaconda/2024.02-py311-gcc-8.5.0-lr57z2f/lib/python3.11/site-packages/matplotlib/backend_bases.py", line 2187, in print_figure
+    result = print_method(
+             ^^^^^^^^^^^^^
+  File "/apps/spack/negishi/apps/anaconda/2024.02-py311-gcc-8.5.0-lr57z2f/lib/python3.11/site-packages/matplotlib/backend_bases.py", line 2043, in <lambda>
+    print_method = functools.wraps(meth)(lambda *args, **kwargs: meth(
+                                                                 ^^^^^
+  File "/apps/spack/negishi/apps/anaconda/2024.02-py311-gcc-8.5.0-lr57z2f/lib/python3.11/site-packages/matplotlib/backends/backend_pdf.py", line 2800, in print_pdf
+    file = PdfFile(filename, metadata=metadata)
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/apps/spack/negishi/apps/anaconda/2024.02-py311-gcc-8.5.0-lr57z2f/lib/python3.11/site-packages/matplotlib/backends/backend_pdf.py", line 688, in __init__
+    fh, opened = cbook.to_filehandle(filename, "wb", return_opened=True)
+                 ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/apps/spack/negishi/apps/anaconda/2024.02-py311-gcc-8.5.0-lr57z2f/lib/python3.11/site-packages/matplotlib/cbook.py", line 483, in to_filehandle
+    fh = open(fname, flag, encoding=encoding)
+         ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+FileNotFoundError: [Errno 2] No such file or directory: './signals_25_noise1/3_31_SignalsPics.pdf'
+srun: error: a126: task 0: Exited with exit code 1
+Traceback (most recent call last):
+  File "/scratch/negishi/mart1789/QPDS_50_noise1/QPDS_50_noise1.py", line 73, in <module>
+    plt.savefig('./signals_25_noise1/'+str(power)+"_"+str(base)+"_"+"SignalsPics.pdf", dpi=150)
+  File "/apps/spack/negishi/apps/anaconda/2024.02-py311-gcc-8.5.0-lr57z2f/lib/python3.11/site-packages/matplotlib/pyplot.py", line 1119, in savefig
+    res = fig.savefig(*args, **kwargs)  # type: ignore[func-returns-value]
+          ^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/apps/spack/negishi/apps/anaconda/2024.02-py311-gcc-8.5.0-lr57z2f/lib/python3.11/site-packages/matplotlib/figure.py", line 3390, in savefig
+    self.canvas.print_figure(fname, **kwargs)
+  File "/apps/spack/negishi/apps/anaconda/2024.02-py311-gcc-8.5.0-lr57z2f/lib/python3.11/site-packages/matplotlib/backend_bases.py", line 2187, in print_figure
+    result = print_method(
+             ^^^^^^^^^^^^^
+  File "/apps/spack/negishi/apps/anaconda/2024.02-py311-gcc-8.5.0-lr57z2f/lib/python3.11/site-packages/matplotlib/backend_bases.py", line 2043, in <lambda>
+    print_method = functools.wraps(meth)(lambda *args, **kwargs: meth(
+                                                                 ^^^^^
+  File "/apps/spack/negishi/apps/anaconda/2024.02-py311-gcc-8.5.0-lr57z2f/lib/python3.11/site-packages/matplotlib/backends/backend_pdf.py", line 2800, in print_pdf
+    file = PdfFile(filename, metadata=metadata)
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/apps/spack/negishi/apps/anaconda/2024.02-py311-gcc-8.5.0-lr57z2f/lib/python3.11/site-packages/matplotlib/backends/backend_pdf.py", line 688, in __init__
+    fh, opened = cbook.to_filehandle(filename, "wb", return_opened=True)
+                 ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/apps/spack/negishi/apps/anaconda/2024.02-py311-gcc-8.5.0-lr57z2f/lib/python3.11/site-packages/matplotlib/cbook.py", line 483, in to_filehandle
+    fh = open(fname, flag, encoding=encoding)
+         ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+FileNotFoundError: [Errno 2] No such file or directory: './signals_25_noise1/3_33_SignalsPics.pdf'
+srun: error: a129: task 0: Exited with exit code 1
+Traceback (most recent call last):
+  File "/scratch/negishi/mart1789/QPDS_50_noise1/QPDS_50_noise1.py", line 73, in <module>
+    plt.savefig('./signals_25_noise1/'+str(power)+"_"+str(base)+"_"+"SignalsPics.pdf", dpi=150)
+  File "/apps/spack/negishi/apps/anaconda/2024.02-py311-gcc-8.5.0-lr57z2f/lib/python3.11/site-packages/matplotlib/pyplot.py", line 1119, in savefig
+    res = fig.savefig(*args, **kwargs)  # type: ignore[func-returns-value]
+          ^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/apps/spack/negishi/apps/anaconda/2024.02-py311-gcc-8.5.0-lr57z2f/lib/python3.11/site-packages/matplotlib/figure.py", line 3390, in savefig
+    self.canvas.print_figure(fname, **kwargs)
+  File "/apps/spack/negishi/apps/anaconda/2024.02-py311-gcc-8.5.0-lr57z2f/lib/python3.11/site-packages/matplotlib/backend_bases.py", line 2187, in print_figure
+    result = print_method(
+             ^^^^^^^^^^^^^
+  File "/apps/spack/negishi/apps/anaconda/2024.02-py311-gcc-8.5.0-lr57z2f/lib/python3.11/site-packages/matplotlib/backend_bases.py", line 2043, in <lambda>
+    print_method = functools.wraps(meth)(lambda *args, **kwargs: meth(
+                                                                 ^^^^^
+  File "/apps/spack/negishi/apps/anaconda/2024.02-py311-gcc-8.5.0-lr57z2f/lib/python3.11/site-packages/matplotlib/backends/backend_pdf.py", line 2800, in print_pdf
+    file = PdfFile(filename, metadata=metadata)
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/apps/spack/negishi/apps/anaconda/2024.02-py311-gcc-8.5.0-lr57z2f/lib/python3.11/site-packages/matplotlib/backends/backend_pdf.py", line 688, in __init__
+    fh, opened = cbook.to_filehandle(filename, "wb", return_opened=True)
+                 ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/apps/spack/negishi/apps/anaconda/2024.02-py311-gcc-8.5.0-lr57z2f/lib/python3.11/site-packages/matplotlib/cbook.py", line 483, in to_filehandle
+    fh = open(fname, flag, encoding=encoding)
+         ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+FileNotFoundError: [Errno 2] No such file or directory: './signals_25_noise1/3_32_SignalsPics.pdf'
+srun: error: a129: task 0: Exited with exit code 1
+Traceback (most recent call last):
+  File "/scratch/negishi/mart1789/QPDS_50_noise1/QPDS_50_noise1.py", line 73, in <module>
+    plt.savefig('./signals_25_noise1/'+str(power)+"_"+str(base)+"_"+"SignalsPics.pdf", dpi=150)
+  File "/apps/spack/negishi/apps/anaconda/2024.02-py311-gcc-8.5.0-lr57z2f/lib/python3.11/site-packages/matplotlib/pyplot.py", line 1119, in savefig
+    res = fig.savefig(*args, **kwargs)  # type: ignore[func-returns-value]
+          ^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/apps/spack/negishi/apps/anaconda/2024.02-py311-gcc-8.5.0-lr57z2f/lib/python3.11/site-packages/matplotlib/figure.py", line 3390, in savefig
+    self.canvas.print_figure(fname, **kwargs)
+  File "/apps/spack/negishi/apps/anaconda/2024.02-py311-gcc-8.5.0-lr57z2f/lib/python3.11/site-packages/matplotlib/backend_bases.py", line 2187, in print_figure
+    result = print_method(
+             ^^^^^^^^^^^^^
+  File "/apps/spack/negishi/apps/anaconda/2024.02-py311-gcc-8.5.0-lr57z2f/lib/python3.11/site-packages/matplotlib/backend_bases.py", line 2043, in <lambda>
+    print_method = functools.wraps(meth)(lambda *args, **kwargs: meth(
+                                                                 ^^^^^
+  File "/apps/spack/negishi/apps/anaconda/2024.02-py311-gcc-8.5.0-lr57z2f/lib/python3.11/site-packages/matplotlib/backends/backend_pdf.py", line 2800, in print_pdf
+    file = PdfFile(filename, metadata=metadata)
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/apps/spack/negishi/apps/anaconda/2024.02-py311-gcc-8.5.0-lr57z2f/lib/python3.11/site-packages/matplotlib/backends/backend_pdf.py", line 688, in __init__
+    fh, opened = cbook.to_filehandle(filename, "wb", return_opened=True)
+                 ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/apps/spack/negishi/apps/anaconda/2024.02-py311-gcc-8.5.0-lr57z2f/lib/python3.11/site-packages/matplotlib/cbook.py", line 483, in to_filehandle
+    fh = open(fname, flag, encoding=encoding)
+         ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+FileNotFoundError: [Errno 2] No such file or directory: './signals_25_noise1/3_34_SignalsPics.pdf'
+srun: error: a129: task 0: Exited with exit code 1
+Traceback (most recent call last):
+  File "/scratch/negishi/mart1789/QPDS_50_noise1/QPDS_50_noise1.py", line 73, in <module>
+    plt.savefig('./signals_25_noise1/'+str(power)+"_"+str(base)+"_"+"SignalsPics.pdf", dpi=150)
+  File "/apps/spack/negishi/apps/anaconda/2024.02-py311-gcc-8.5.0-lr57z2f/lib/python3.11/site-packages/matplotlib/pyplot.py", line 1119, in savefig
+    res = fig.savefig(*args, **kwargs)  # type: ignore[func-returns-value]
+          ^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/apps/spack/negishi/apps/anaconda/2024.02-py311-gcc-8.5.0-lr57z2f/lib/python3.11/site-packages/matplotlib/figure.py", line 3390, in savefig
+    self.canvas.print_figure(fname, **kwargs)
+  File "/apps/spack/negishi/apps/anaconda/2024.02-py311-gcc-8.5.0-lr57z2f/lib/python3.11/site-packages/matplotlib/backend_bases.py", line 2187, in print_figure
+    result = print_method(
+             ^^^^^^^^^^^^^
+  File "/apps/spack/negishi/apps/anaconda/2024.02-py311-gcc-8.5.0-lr57z2f/lib/python3.11/site-packages/matplotlib/backend_bases.py", line 2043, in <lambda>
+    print_method = functools.wraps(meth)(lambda *args, **kwargs: meth(
+                                                                 ^^^^^
+  File "/apps/spack/negishi/apps/anaconda/2024.02-py311-gcc-8.5.0-lr57z2f/lib/python3.11/site-packages/matplotlib/backends/backend_pdf.py", line 2800, in print_pdf
+    file = PdfFile(filename, metadata=metadata)
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/apps/spack/negishi/apps/anaconda/2024.02-py311-gcc-8.5.0-lr57z2f/lib/python3.11/site-packages/matplotlib/backends/backend_pdf.py", line 688, in __init__
+    fh, opened = cbook.to_filehandle(filename, "wb", return_opened=True)
+                 ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/apps/spack/negishi/apps/anaconda/2024.02-py311-gcc-8.5.0-lr57z2f/lib/python3.11/site-packages/matplotlib/cbook.py", line 483, in to_filehandle
+    fh = open(fname, flag, encoding=encoding)
+         ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+FileNotFoundError: [Errno 2] No such file or directory: './signals_25_noise1/3_35_SignalsPics.pdf'
+srun: error: a129: task 0: Exited with exit code 1
+Traceback (most recent call last):
+  File "/scratch/negishi/mart1789/QPDS_50_noise1/QPDS_50_noise1.py", line 73, in <module>
+    plt.savefig('./signals_25_noise1/'+str(power)+"_"+str(base)+"_"+"SignalsPics.pdf", dpi=150)
+  File "/apps/spack/negishi/apps/anaconda/2024.02-py311-gcc-8.5.0-lr57z2f/lib/python3.11/site-packages/matplotlib/pyplot.py", line 1119, in savefig
+    res = fig.savefig(*args, **kwargs)  # type: ignore[func-returns-value]
+          ^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/apps/spack/negishi/apps/anaconda/2024.02-py311-gcc-8.5.0-lr57z2f/lib/python3.11/site-packages/matplotlib/figure.py", line 3390, in savefig
+    self.canvas.print_figure(fname, **kwargs)
+  File "/apps/spack/negishi/apps/anaconda/2024.02-py311-gcc-8.5.0-lr57z2f/lib/python3.11/site-packages/matplotlib/backend_bases.py", line 2187, in print_figure
+    result = print_method(
+             ^^^^^^^^^^^^^
+  File "/apps/spack/negishi/apps/anaconda/2024.02-py311-gcc-8.5.0-lr57z2f/lib/python3.11/site-packages/matplotlib/backend_bases.py", line 2043, in <lambda>
+    print_method = functools.wraps(meth)(lambda *args, **kwargs: meth(
+                                                                 ^^^^^
+  File "/apps/spack/negishi/apps/anaconda/2024.02-py311-gcc-8.5.0-lr57z2f/lib/python3.11/site-packages/matplotlib/backends/backend_pdf.py", line 2800, in print_pdf
+    file = PdfFile(filename, metadata=metadata)
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/apps/spack/negishi/apps/anaconda/2024.02-py311-gcc-8.5.0-lr57z2f/lib/python3.11/site-packages/matplotlib/backends/backend_pdf.py", line 688, in __init__
+    fh, opened = cbook.to_filehandle(filename, "wb", return_opened=True)
+                 ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/apps/spack/negishi/apps/anaconda/2024.02-py311-gcc-8.5.0-lr57z2f/lib/python3.11/site-packages/matplotlib/cbook.py", line 483, in to_filehandle
+    fh = open(fname, flag, encoding=encoding)
+         ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+FileNotFoundError: [Errno 2] No such file or directory: './signals_25_noise1/3_36_SignalsPics.pdf'
+srun: error: a123: task 0: Exited with exit code 1
+Traceback (most recent call last):
+  File "/scratch/negishi/mart1789/QPDS_50_noise1/QPDS_50_noise1.py", line 73, in <module>
+    plt.savefig('./signals_25_noise1/'+str(power)+"_"+str(base)+"_"+"SignalsPics.pdf", dpi=150)
+  File "/apps/spack/negishi/apps/anaconda/2024.02-py311-gcc-8.5.0-lr57z2f/lib/python3.11/site-packages/matplotlib/pyplot.py", line 1119, in savefig
+    res = fig.savefig(*args, **kwargs)  # type: ignore[func-returns-value]
+          ^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/apps/spack/negishi/apps/anaconda/2024.02-py311-gcc-8.5.0-lr57z2f/lib/python3.11/site-packages/matplotlib/figure.py", line 3390, in savefig
+    self.canvas.print_figure(fname, **kwargs)
+  File "/apps/spack/negishi/apps/anaconda/2024.02-py311-gcc-8.5.0-lr57z2f/lib/python3.11/site-packages/matplotlib/backend_bases.py", line 2187, in print_figure
+    result = print_method(
+             ^^^^^^^^^^^^^
+  File "/apps/spack/negishi/apps/anaconda/2024.02-py311-gcc-8.5.0-lr57z2f/lib/python3.11/site-packages/matplotlib/backend_bases.py", line 2043, in <lambda>
+    print_method = functools.wraps(meth)(lambda *args, **kwargs: meth(
+                                                                 ^^^^^
+  File "/apps/spack/negishi/apps/anaconda/2024.02-py311-gcc-8.5.0-lr57z2f/lib/python3.11/site-packages/matplotlib/backends/backend_pdf.py", line 2800, in print_pdf
+    file = PdfFile(filename, metadata=metadata)
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/apps/spack/negishi/apps/anaconda/2024.02-py311-gcc-8.5.0-lr57z2f/lib/python3.11/site-packages/matplotlib/backends/backend_pdf.py", line 688, in __init__
+    fh, opened = cbook.to_filehandle(filename, "wb", return_opened=True)
+                 ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/apps/spack/negishi/apps/anaconda/2024.02-py311-gcc-8.5.0-lr57z2f/lib/python3.11/site-packages/matplotlib/cbook.py", line 483, in to_filehandle
+    fh = open(fname, flag, encoding=encoding)
+         ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+FileNotFoundError: [Errno 2] No such file or directory: './signals_25_noise1/3_37_SignalsPics.pdf'
+srun: error: a123: task 0: Exited with exit code 1
+Traceback (most recent call last):
+  File "/scratch/negishi/mart1789/QPDS_50_noise1/QPDS_50_noise1.py", line 73, in <module>
+    plt.savefig('./signals_25_noise1/'+str(power)+"_"+str(base)+"_"+"SignalsPics.pdf", dpi=150)
+  File "/apps/spack/negishi/apps/anaconda/2024.02-py311-gcc-8.5.0-lr57z2f/lib/python3.11/site-packages/matplotlib/pyplot.py", line 1119, in savefig
+    res = fig.savefig(*args, **kwargs)  # type: ignore[func-returns-value]
+          ^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/apps/spack/negishi/apps/anaconda/2024.02-py311-gcc-8.5.0-lr57z2f/lib/python3.11/site-packages/matplotlib/figure.py", line 3390, in savefig
+    self.canvas.print_figure(fname, **kwargs)
+  File "/apps/spack/negishi/apps/anaconda/2024.02-py311-gcc-8.5.0-lr57z2f/lib/python3.11/site-packages/matplotlib/backend_bases.py", line 2187, in print_figure
+    result = print_method(
+             ^^^^^^^^^^^^^
+  File "/apps/spack/negishi/apps/anaconda/2024.02-py311-gcc-8.5.0-lr57z2f/lib/python3.11/site-packages/matplotlib/backend_bases.py", line 2043, in <lambda>
+    print_method = functools.wraps(meth)(lambda *args, **kwargs: meth(
+                                                                 ^^^^^
+  File "/apps/spack/negishi/apps/anaconda/2024.02-py311-gcc-8.5.0-lr57z2f/lib/python3.11/site-packages/matplotlib/backends/backend_pdf.py", line 2800, in print_pdf
+    file = PdfFile(filename, metadata=metadata)
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/apps/spack/negishi/apps/anaconda/2024.02-py311-gcc-8.5.0-lr57z2f/lib/python3.11/site-packages/matplotlib/backends/backend_pdf.py", line 688, in __init__
+    fh, opened = cbook.to_filehandle(filename, "wb", return_opened=True)
+                 ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/apps/spack/negishi/apps/anaconda/2024.02-py311-gcc-8.5.0-lr57z2f/lib/python3.11/site-packages/matplotlib/cbook.py", line 483, in to_filehandle
+    fh = open(fname, flag, encoding=encoding)
+         ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+FileNotFoundError: [Errno 2] No such file or directory: './signals_25_noise1/3_39_SignalsPics.pdf'
+srun: error: a123: task 0: Exited with exit code 1
+Traceback (most recent call last):
+  File "/scratch/negishi/mart1789/QPDS_50_noise1/QPDS_50_noise1.py", line 73, in <module>
+    plt.savefig('./signals_25_noise1/'+str(power)+"_"+str(base)+"_"+"SignalsPics.pdf", dpi=150)
+  File "/apps/spack/negishi/apps/anaconda/2024.02-py311-gcc-8.5.0-lr57z2f/lib/python3.11/site-packages/matplotlib/pyplot.py", line 1119, in savefig
+    res = fig.savefig(*args, **kwargs)  # type: ignore[func-returns-value]
+          ^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/apps/spack/negishi/apps/anaconda/2024.02-py311-gcc-8.5.0-lr57z2f/lib/python3.11/site-packages/matplotlib/figure.py", line 3390, in savefig
+    self.canvas.print_figure(fname, **kwargs)
+  File "/apps/spack/negishi/apps/anaconda/2024.02-py311-gcc-8.5.0-lr57z2f/lib/python3.11/site-packages/matplotlib/backend_bases.py", line 2187, in print_figure
+    result = print_method(
+             ^^^^^^^^^^^^^
+  File "/apps/spack/negishi/apps/anaconda/2024.02-py311-gcc-8.5.0-lr57z2f/lib/python3.11/site-packages/matplotlib/backend_bases.py", line 2043, in <lambda>
+    print_method = functools.wraps(meth)(lambda *args, **kwargs: meth(
+                                                                 ^^^^^
+  File "/apps/spack/negishi/apps/anaconda/2024.02-py311-gcc-8.5.0-lr57z2f/lib/python3.11/site-packages/matplotlib/backends/backend_pdf.py", line 2800, in print_pdf
+    file = PdfFile(filename, metadata=metadata)
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/apps/spack/negishi/apps/anaconda/2024.02-py311-gcc-8.5.0-lr57z2f/lib/python3.11/site-packages/matplotlib/backends/backend_pdf.py", line 688, in __init__
+    fh, opened = cbook.to_filehandle(filename, "wb", return_opened=True)
+                 ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/apps/spack/negishi/apps/anaconda/2024.02-py311-gcc-8.5.0-lr57z2f/lib/python3.11/site-packages/matplotlib/cbook.py", line 483, in to_filehandle
+    fh = open(fname, flag, encoding=encoding)
+         ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+FileNotFoundError: [Errno 2] No such file or directory: './signals_25_noise1/3_38_SignalsPics.pdf'
+srun: error: a123: task 0: Exited with exit code 1
+Traceback (most recent call last):
+  File "/scratch/negishi/mart1789/QPDS_50_noise1/QPDS_50_noise1.py", line 73, in <module>
+    plt.savefig('./signals_25_noise1/'+str(power)+"_"+str(base)+"_"+"SignalsPics.pdf", dpi=150)
+  File "/apps/spack/negishi/apps/anaconda/2024.02-py311-gcc-8.5.0-lr57z2f/lib/python3.11/site-packages/matplotlib/pyplot.py", line 1119, in savefig
+    res = fig.savefig(*args, **kwargs)  # type: ignore[func-returns-value]
+          ^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/apps/spack/negishi/apps/anaconda/2024.02-py311-gcc-8.5.0-lr57z2f/lib/python3.11/site-packages/matplotlib/figure.py", line 3390, in savefig
+    self.canvas.print_figure(fname, **kwargs)
+  File "/apps/spack/negishi/apps/anaconda/2024.02-py311-gcc-8.5.0-lr57z2f/lib/python3.11/site-packages/matplotlib/backend_bases.py", line 2187, in print_figure
+    result = print_method(
+             ^^^^^^^^^^^^^
+  File "/apps/spack/negishi/apps/anaconda/2024.02-py311-gcc-8.5.0-lr57z2f/lib/python3.11/site-packages/matplotlib/backend_bases.py", line 2043, in <lambda>
+    print_method = functools.wraps(meth)(lambda *args, **kwargs: meth(
+                                                                 ^^^^^
+  File "/apps/spack/negishi/apps/anaconda/2024.02-py311-gcc-8.5.0-lr57z2f/lib/python3.11/site-packages/matplotlib/backends/backend_pdf.py", line 2800, in print_pdf
+    file = PdfFile(filename, metadata=metadata)
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/apps/spack/negishi/apps/anaconda/2024.02-py311-gcc-8.5.0-lr57z2f/lib/python3.11/site-packages/matplotlib/backends/backend_pdf.py", line 688, in __init__
+    fh, opened = cbook.to_filehandle(filename, "wb", return_opened=True)
+                 ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/apps/spack/negishi/apps/anaconda/2024.02-py311-gcc-8.5.0-lr57z2f/lib/python3.11/site-packages/matplotlib/cbook.py", line 483, in to_filehandle
+    fh = open(fname, flag, encoding=encoding)
+         ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+FileNotFoundError: [Errno 2] No such file or directory: './signals_25_noise1/3_40_SignalsPics.pdf'
+srun: error: a169: task 0: Exited with exit code 1
+Traceback (most recent call last):
+  File "/scratch/negishi/mart1789/QPDS_50_noise1/QPDS_50_noise1.py", line 73, in <module>
+    plt.savefig('./signals_25_noise1/'+str(power)+"_"+str(base)+"_"+"SignalsPics.pdf", dpi=150)
+  File "/apps/spack/negishi/apps/anaconda/2024.02-py311-gcc-8.5.0-lr57z2f/lib/python3.11/site-packages/matplotlib/pyplot.py", line 1119, in savefig
+    res = fig.savefig(*args, **kwargs)  # type: ignore[func-returns-value]
+          ^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/apps/spack/negishi/apps/anaconda/2024.02-py311-gcc-8.5.0-lr57z2f/lib/python3.11/site-packages/matplotlib/figure.py", line 3390, in savefig
+    self.canvas.print_figure(fname, **kwargs)
+  File "/apps/spack/negishi/apps/anaconda/2024.02-py311-gcc-8.5.0-lr57z2f/lib/python3.11/site-packages/matplotlib/backend_bases.py", line 2187, in print_figure
+    result = print_method(
+             ^^^^^^^^^^^^^
+  File "/apps/spack/negishi/apps/anaconda/2024.02-py311-gcc-8.5.0-lr57z2f/lib/python3.11/site-packages/matplotlib/backend_bases.py", line 2043, in <lambda>
+    print_method = functools.wraps(meth)(lambda *args, **kwargs: meth(
+                                                                 ^^^^^
+  File "/apps/spack/negishi/apps/anaconda/2024.02-py311-gcc-8.5.0-lr57z2f/lib/python3.11/site-packages/matplotlib/backends/backend_pdf.py", line 2800, in print_pdf
+    file = PdfFile(filename, metadata=metadata)
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/apps/spack/negishi/apps/anaconda/2024.02-py311-gcc-8.5.0-lr57z2f/lib/python3.11/site-packages/matplotlib/backends/backend_pdf.py", line 688, in __init__
+    fh, opened = cbook.to_filehandle(filename, "wb", return_opened=True)
+                 ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/apps/spack/negishi/apps/anaconda/2024.02-py311-gcc-8.5.0-lr57z2f/lib/python3.11/site-packages/matplotlib/cbook.py", line 483, in to_filehandle
+    fh = open(fname, flag, encoding=encoding)
+         ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+FileNotFoundError: [Errno 2] No such file or directory: './signals_25_noise1/3_41_SignalsPics.pdf'
+srun: error: a135: task 0: Exited with exit code 1
+Traceback (most recent call last):
+  File "/scratch/negishi/mart1789/QPDS_50_noise1/QPDS_50_noise1.py", line 73, in <module>
+    plt.savefig('./signals_25_noise1/'+str(power)+"_"+str(base)+"_"+"SignalsPics.pdf", dpi=150)
+  File "/apps/spack/negishi/apps/anaconda/2024.02-py311-gcc-8.5.0-lr57z2f/lib/python3.11/site-packages/matplotlib/pyplot.py", line 1119, in savefig
+    res = fig.savefig(*args, **kwargs)  # type: ignore[func-returns-value]
+          ^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/apps/spack/negishi/apps/anaconda/2024.02-py311-gcc-8.5.0-lr57z2f/lib/python3.11/site-packages/matplotlib/figure.py", line 3390, in savefig
+    self.canvas.print_figure(fname, **kwargs)
+  File "/apps/spack/negishi/apps/anaconda/2024.02-py311-gcc-8.5.0-lr57z2f/lib/python3.11/site-packages/matplotlib/backend_bases.py", line 2187, in print_figure
+    result = print_method(
+             ^^^^^^^^^^^^^
+  File "/apps/spack/negishi/apps/anaconda/2024.02-py311-gcc-8.5.0-lr57z2f/lib/python3.11/site-packages/matplotlib/backend_bases.py", line 2043, in <lambda>
+    print_method = functools.wraps(meth)(lambda *args, **kwargs: meth(
+                                                                 ^^^^^
+  File "/apps/spack/negishi/apps/anaconda/2024.02-py311-gcc-8.5.0-lr57z2f/lib/python3.11/site-packages/matplotlib/backends/backend_pdf.py", line 2800, in print_pdf
+    file = PdfFile(filename, metadata=metadata)
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/apps/spack/negishi/apps/anaconda/2024.02-py311-gcc-8.5.0-lr57z2f/lib/python3.11/site-packages/matplotlib/backends/backend_pdf.py", line 688, in __init__
+    fh, opened = cbook.to_filehandle(filename, "wb", return_opened=True)
+                 ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/apps/spack/negishi/apps/anaconda/2024.02-py311-gcc-8.5.0-lr57z2f/lib/python3.11/site-packages/matplotlib/cbook.py", line 483, in to_filehandle
+    fh = open(fname, flag, encoding=encoding)
+         ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+FileNotFoundError: [Errno 2] No such file or directory: './signals_25_noise1/3_42_SignalsPics.pdf'
+srun: error: a164: task 0: Exited with exit code 1
+Traceback (most recent call last):
+  File "/scratch/negishi/mart1789/QPDS_50_noise1/QPDS_50_noise1.py", line 73, in <module>
+    plt.savefig('./signals_25_noise1/'+str(power)+"_"+str(base)+"_"+"SignalsPics.pdf", dpi=150)
+  File "/apps/spack/negishi/apps/anaconda/2024.02-py311-gcc-8.5.0-lr57z2f/lib/python3.11/site-packages/matplotlib/pyplot.py", line 1119, in savefig
+    res = fig.savefig(*args, **kwargs)  # type: ignore[func-returns-value]
+          ^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/apps/spack/negishi/apps/anaconda/2024.02-py311-gcc-8.5.0-lr57z2f/lib/python3.11/site-packages/matplotlib/figure.py", line 3390, in savefig
+    self.canvas.print_figure(fname, **kwargs)
+  File "/apps/spack/negishi/apps/anaconda/2024.02-py311-gcc-8.5.0-lr57z2f/lib/python3.11/site-packages/matplotlib/backend_bases.py", line 2187, in print_figure
+    result = print_method(
+             ^^^^^^^^^^^^^
+  File "/apps/spack/negishi/apps/anaconda/2024.02-py311-gcc-8.5.0-lr57z2f/lib/python3.11/site-packages/matplotlib/backend_bases.py", line 2043, in <lambda>
+    print_method = functools.wraps(meth)(lambda *args, **kwargs: meth(
+                                                                 ^^^^^
+  File "/apps/spack/negishi/apps/anaconda/2024.02-py311-gcc-8.5.0-lr57z2f/lib/python3.11/site-packages/matplotlib/backends/backend_pdf.py", line 2800, in print_pdf
+    file = PdfFile(filename, metadata=metadata)
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/apps/spack/negishi/apps/anaconda/2024.02-py311-gcc-8.5.0-lr57z2f/lib/python3.11/site-packages/matplotlib/backends/backend_pdf.py", line 688, in __init__
+    fh, opened = cbook.to_filehandle(filename, "wb", return_opened=True)
+                 ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/apps/spack/negishi/apps/anaconda/2024.02-py311-gcc-8.5.0-lr57z2f/lib/python3.11/site-packages/matplotlib/cbook.py", line 483, in to_filehandle
+    fh = open(fname, flag, encoding=encoding)
+         ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+FileNotFoundError: [Errno 2] No such file or directory: './signals_25_noise1/3_43_SignalsPics.pdf'
+srun: error: a126: task 0: Exited with exit code 1
+Traceback (most recent call last):
+  File "/scratch/negishi/mart1789/QPDS_50_noise1/QPDS_50_noise1.py", line 73, in <module>
+    plt.savefig('./signals_25_noise1/'+str(power)+"_"+str(base)+"_"+"SignalsPics.pdf", dpi=150)
+  File "/apps/spack/negishi/apps/anaconda/2024.02-py311-gcc-8.5.0-lr57z2f/lib/python3.11/site-packages/matplotlib/pyplot.py", line 1119, in savefig
+    res = fig.savefig(*args, **kwargs)  # type: ignore[func-returns-value]
+          ^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/apps/spack/negishi/apps/anaconda/2024.02-py311-gcc-8.5.0-lr57z2f/lib/python3.11/site-packages/matplotlib/figure.py", line 3390, in savefig
+    self.canvas.print_figure(fname, **kwargs)
+  File "/apps/spack/negishi/apps/anaconda/2024.02-py311-gcc-8.5.0-lr57z2f/lib/python3.11/site-packages/matplotlib/backend_bases.py", line 2187, in print_figure
+    result = print_method(
+             ^^^^^^^^^^^^^
+  File "/apps/spack/negishi/apps/anaconda/2024.02-py311-gcc-8.5.0-lr57z2f/lib/python3.11/site-packages/matplotlib/backend_bases.py", line 2043, in <lambda>
+    print_method = functools.wraps(meth)(lambda *args, **kwargs: meth(
+                                                                 ^^^^^
+  File "/apps/spack/negishi/apps/anaconda/2024.02-py311-gcc-8.5.0-lr57z2f/lib/python3.11/site-packages/matplotlib/backends/backend_pdf.py", line 2800, in print_pdf
+    file = PdfFile(filename, metadata=metadata)
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/apps/spack/negishi/apps/anaconda/2024.02-py311-gcc-8.5.0-lr57z2f/lib/python3.11/site-packages/matplotlib/backends/backend_pdf.py", line 688, in __init__
+    fh, opened = cbook.to_filehandle(filename, "wb", return_opened=True)
+                 ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/apps/spack/negishi/apps/anaconda/2024.02-py311-gcc-8.5.0-lr57z2f/lib/python3.11/site-packages/matplotlib/cbook.py", line 483, in to_filehandle
+    fh = open(fname, flag, encoding=encoding)
+         ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+FileNotFoundError: [Errno 2] No such file or directory: './signals_25_noise1/3_44_SignalsPics.pdf'
+srun: error: a126: task 0: Exited with exit code 1
+Traceback (most recent call last):
+  File "/scratch/negishi/mart1789/QPDS_50_noise1/QPDS_50_noise1.py", line 73, in <module>
+    plt.savefig('./signals_25_noise1/'+str(power)+"_"+str(base)+"_"+"SignalsPics.pdf", dpi=150)
+  File "/apps/spack/negishi/apps/anaconda/2024.02-py311-gcc-8.5.0-lr57z2f/lib/python3.11/site-packages/matplotlib/pyplot.py", line 1119, in savefig
+    res = fig.savefig(*args, **kwargs)  # type: ignore[func-returns-value]
+          ^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/apps/spack/negishi/apps/anaconda/2024.02-py311-gcc-8.5.0-lr57z2f/lib/python3.11/site-packages/matplotlib/figure.py", line 3390, in savefig
+    self.canvas.print_figure(fname, **kwargs)
+  File "/apps/spack/negishi/apps/anaconda/2024.02-py311-gcc-8.5.0-lr57z2f/lib/python3.11/site-packages/matplotlib/backend_bases.py", line 2187, in print_figure
+    result = print_method(
+             ^^^^^^^^^^^^^
+  File "/apps/spack/negishi/apps/anaconda/2024.02-py311-gcc-8.5.0-lr57z2f/lib/python3.11/site-packages/matplotlib/backend_bases.py", line 2043, in <lambda>
+    print_method = functools.wraps(meth)(lambda *args, **kwargs: meth(
+                                                                 ^^^^^
+  File "/apps/spack/negishi/apps/anaconda/2024.02-py311-gcc-8.5.0-lr57z2f/lib/python3.11/site-packages/matplotlib/backends/backend_pdf.py", line 2800, in print_pdf
+    file = PdfFile(filename, metadata=metadata)
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/apps/spack/negishi/apps/anaconda/2024.02-py311-gcc-8.5.0-lr57z2f/lib/python3.11/site-packages/matplotlib/backends/backend_pdf.py", line 688, in __init__
+    fh, opened = cbook.to_filehandle(filename, "wb", return_opened=True)
+                 ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/apps/spack/negishi/apps/anaconda/2024.02-py311-gcc-8.5.0-lr57z2f/lib/python3.11/site-packages/matplotlib/cbook.py", line 483, in to_filehandle
+    fh = open(fname, flag, encoding=encoding)
+         ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+FileNotFoundError: [Errno 2] No such file or directory: './signals_25_noise1/3_45_SignalsPics.pdf'
+srun: error: a126: task 0: Exited with exit code 1
+Traceback (most recent call last):
+  File "/scratch/negishi/mart1789/QPDS_50_noise1/QPDS_50_noise1.py", line 73, in <module>
+    plt.savefig('./signals_25_noise1/'+str(power)+"_"+str(base)+"_"+"SignalsPics.pdf", dpi=150)
+  File "/apps/spack/negishi/apps/anaconda/2024.02-py311-gcc-8.5.0-lr57z2f/lib/python3.11/site-packages/matplotlib/pyplot.py", line 1119, in savefig
+    res = fig.savefig(*args, **kwargs)  # type: ignore[func-returns-value]
+          ^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/apps/spack/negishi/apps/anaconda/2024.02-py311-gcc-8.5.0-lr57z2f/lib/python3.11/site-packages/matplotlib/figure.py", line 3390, in savefig
+    self.canvas.print_figure(fname, **kwargs)
+  File "/apps/spack/negishi/apps/anaconda/2024.02-py311-gcc-8.5.0-lr57z2f/lib/python3.11/site-packages/matplotlib/backend_bases.py", line 2187, in print_figure
+    result = print_method(
+             ^^^^^^^^^^^^^
+  File "/apps/spack/negishi/apps/anaconda/2024.02-py311-gcc-8.5.0-lr57z2f/lib/python3.11/site-packages/matplotlib/backend_bases.py", line 2043, in <lambda>
+    print_method = functools.wraps(meth)(lambda *args, **kwargs: meth(
+                                                                 ^^^^^
+  File "/apps/spack/negishi/apps/anaconda/2024.02-py311-gcc-8.5.0-lr57z2f/lib/python3.11/site-packages/matplotlib/backends/backend_pdf.py", line 2800, in print_pdf
+    file = PdfFile(filename, metadata=metadata)
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/apps/spack/negishi/apps/anaconda/2024.02-py311-gcc-8.5.0-lr57z2f/lib/python3.11/site-packages/matplotlib/backends/backend_pdf.py", line 688, in __init__
+    fh, opened = cbook.to_filehandle(filename, "wb", return_opened=True)
+                 ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/apps/spack/negishi/apps/anaconda/2024.02-py311-gcc-8.5.0-lr57z2f/lib/python3.11/site-packages/matplotlib/cbook.py", line 483, in to_filehandle
+    fh = open(fname, flag, encoding=encoding)
+         ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+FileNotFoundError: [Errno 2] No such file or directory: './signals_25_noise1/3_46_SignalsPics.pdf'
+srun: error: a126: task 0: Exited with exit code 1
+Traceback (most recent call last):
+  File "/scratch/negishi/mart1789/QPDS_50_noise1/QPDS_50_noise1.py", line 73, in <module>
+    plt.savefig('./signals_25_noise1/'+str(power)+"_"+str(base)+"_"+"SignalsPics.pdf", dpi=150)
+  File "/apps/spack/negishi/apps/anaconda/2024.02-py311-gcc-8.5.0-lr57z2f/lib/python3.11/site-packages/matplotlib/pyplot.py", line 1119, in savefig
+    res = fig.savefig(*args, **kwargs)  # type: ignore[func-returns-value]
+          ^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/apps/spack/negishi/apps/anaconda/2024.02-py311-gcc-8.5.0-lr57z2f/lib/python3.11/site-packages/matplotlib/figure.py", line 3390, in savefig
+    self.canvas.print_figure(fname, **kwargs)
+  File "/apps/spack/negishi/apps/anaconda/2024.02-py311-gcc-8.5.0-lr57z2f/lib/python3.11/site-packages/matplotlib/backend_bases.py", line 2187, in print_figure
+    result = print_method(
+             ^^^^^^^^^^^^^
+  File "/apps/spack/negishi/apps/anaconda/2024.02-py311-gcc-8.5.0-lr57z2f/lib/python3.11/site-packages/matplotlib/backend_bases.py", line 2043, in <lambda>
+    print_method = functools.wraps(meth)(lambda *args, **kwargs: meth(
+                                                                 ^^^^^
+  File "/apps/spack/negishi/apps/anaconda/2024.02-py311-gcc-8.5.0-lr57z2f/lib/python3.11/site-packages/matplotlib/backends/backend_pdf.py", line 2800, in print_pdf
+    file = PdfFile(filename, metadata=metadata)
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/apps/spack/negishi/apps/anaconda/2024.02-py311-gcc-8.5.0-lr57z2f/lib/python3.11/site-packages/matplotlib/backends/backend_pdf.py", line 688, in __init__
+    fh, opened = cbook.to_filehandle(filename, "wb", return_opened=True)
+                 ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/apps/spack/negishi/apps/anaconda/2024.02-py311-gcc-8.5.0-lr57z2f/lib/python3.11/site-packages/matplotlib/cbook.py", line 483, in to_filehandle
+    fh = open(fname, flag, encoding=encoding)
+         ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+FileNotFoundError: [Errno 2] No such file or directory: './signals_25_noise1/3_48_SignalsPics.pdf'
+srun: error: a123: task 0: Exited with exit code 1
+Traceback (most recent call last):
+  File "/scratch/negishi/mart1789/QPDS_50_noise1/QPDS_50_noise1.py", line 73, in <module>
+    plt.savefig('./signals_25_noise1/'+str(power)+"_"+str(base)+"_"+"SignalsPics.pdf", dpi=150)
+  File "/apps/spack/negishi/apps/anaconda/2024.02-py311-gcc-8.5.0-lr57z2f/lib/python3.11/site-packages/matplotlib/pyplot.py", line 1119, in savefig
+    res = fig.savefig(*args, **kwargs)  # type: ignore[func-returns-value]
+          ^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/apps/spack/negishi/apps/anaconda/2024.02-py311-gcc-8.5.0-lr57z2f/lib/python3.11/site-packages/matplotlib/figure.py", line 3390, in savefig
+    self.canvas.print_figure(fname, **kwargs)
+  File "/apps/spack/negishi/apps/anaconda/2024.02-py311-gcc-8.5.0-lr57z2f/lib/python3.11/site-packages/matplotlib/backend_bases.py", line 2187, in print_figure
+    result = print_method(
+             ^^^^^^^^^^^^^
+  File "/apps/spack/negishi/apps/anaconda/2024.02-py311-gcc-8.5.0-lr57z2f/lib/python3.11/site-packages/matplotlib/backend_bases.py", line 2043, in <lambda>
+    print_method = functools.wraps(meth)(lambda *args, **kwargs: meth(
+                                                                 ^^^^^
+  File "/apps/spack/negishi/apps/anaconda/2024.02-py311-gcc-8.5.0-lr57z2f/lib/python3.11/site-packages/matplotlib/backends/backend_pdf.py", line 2800, in print_pdf
+    file = PdfFile(filename, metadata=metadata)
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/apps/spack/negishi/apps/anaconda/2024.02-py311-gcc-8.5.0-lr57z2f/lib/python3.11/site-packages/matplotlib/backends/backend_pdf.py", line 688, in __init__
+    fh, opened = cbook.to_filehandle(filename, "wb", return_opened=True)
+                 ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/apps/spack/negishi/apps/anaconda/2024.02-py311-gcc-8.5.0-lr57z2f/lib/python3.11/site-packages/matplotlib/cbook.py", line 483, in to_filehandle
+    fh = open(fname, flag, encoding=encoding)
+         ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+FileNotFoundError: [Errno 2] No such file or directory: './signals_25_noise1/3_49_SignalsPics.pdf'
+srun: error: a123: task 0: Exited with exit code 1
+Traceback (most recent call last):
+  File "/scratch/negishi/mart1789/QPDS_50_noise1/QPDS_50_noise1.py", line 73, in <module>
+    plt.savefig('./signals_25_noise1/'+str(power)+"_"+str(base)+"_"+"SignalsPics.pdf", dpi=150)
+  File "/apps/spack/negishi/apps/anaconda/2024.02-py311-gcc-8.5.0-lr57z2f/lib/python3.11/site-packages/matplotlib/pyplot.py", line 1119, in savefig
+    res = fig.savefig(*args, **kwargs)  # type: ignore[func-returns-value]
+          ^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/apps/spack/negishi/apps/anaconda/2024.02-py311-gcc-8.5.0-lr57z2f/lib/python3.11/site-packages/matplotlib/figure.py", line 3390, in savefig
+    self.canvas.print_figure(fname, **kwargs)
+  File "/apps/spack/negishi/apps/anaconda/2024.02-py311-gcc-8.5.0-lr57z2f/lib/python3.11/site-packages/matplotlib/backend_bases.py", line 2187, in print_figure
+    result = print_method(
+             ^^^^^^^^^^^^^
+  File "/apps/spack/negishi/apps/anaconda/2024.02-py311-gcc-8.5.0-lr57z2f/lib/python3.11/site-packages/matplotlib/backend_bases.py", line 2043, in <lambda>
+    print_method = functools.wraps(meth)(lambda *args, **kwargs: meth(
+                                                                 ^^^^^
+  File "/apps/spack/negishi/apps/anaconda/2024.02-py311-gcc-8.5.0-lr57z2f/lib/python3.11/site-packages/matplotlib/backends/backend_pdf.py", line 2800, in print_pdf
+    file = PdfFile(filename, metadata=metadata)
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/apps/spack/negishi/apps/anaconda/2024.02-py311-gcc-8.5.0-lr57z2f/lib/python3.11/site-packages/matplotlib/backends/backend_pdf.py", line 688, in __init__
+    fh, opened = cbook.to_filehandle(filename, "wb", return_opened=True)
+                 ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/apps/spack/negishi/apps/anaconda/2024.02-py311-gcc-8.5.0-lr57z2f/lib/python3.11/site-packages/matplotlib/cbook.py", line 483, in to_filehandle
+    fh = open(fname, flag, encoding=encoding)
+         ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+FileNotFoundError: [Errno 2] No such file or directory: './signals_25_noise1/3_47_SignalsPics.pdf'
+srun: error: a129: task 0: Exited with exit code 1
+Traceback (most recent call last):
+  File "/scratch/negishi/mart1789/QPDS_50_noise1/QPDS_50_noise1.py", line 73, in <module>
+    plt.savefig('./signals_25_noise1/'+str(power)+"_"+str(base)+"_"+"SignalsPics.pdf", dpi=150)
+  File "/apps/spack/negishi/apps/anaconda/2024.02-py311-gcc-8.5.0-lr57z2f/lib/python3.11/site-packages/matplotlib/pyplot.py", line 1119, in savefig
+    res = fig.savefig(*args, **kwargs)  # type: ignore[func-returns-value]
+          ^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/apps/spack/negishi/apps/anaconda/2024.02-py311-gcc-8.5.0-lr57z2f/lib/python3.11/site-packages/matplotlib/figure.py", line 3390, in savefig
+    self.canvas.print_figure(fname, **kwargs)
+  File "/apps/spack/negishi/apps/anaconda/2024.02-py311-gcc-8.5.0-lr57z2f/lib/python3.11/site-packages/matplotlib/backend_bases.py", line 2187, in print_figure
+    result = print_method(
+             ^^^^^^^^^^^^^
+  File "/apps/spack/negishi/apps/anaconda/2024.02-py311-gcc-8.5.0-lr57z2f/lib/python3.11/site-packages/matplotlib/backend_bases.py", line 2043, in <lambda>
+    print_method = functools.wraps(meth)(lambda *args, **kwargs: meth(
+                                                                 ^^^^^
+  File "/apps/spack/negishi/apps/anaconda/2024.02-py311-gcc-8.5.0-lr57z2f/lib/python3.11/site-packages/matplotlib/backends/backend_pdf.py", line 2800, in print_pdf
+    file = PdfFile(filename, metadata=metadata)
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/apps/spack/negishi/apps/anaconda/2024.02-py311-gcc-8.5.0-lr57z2f/lib/python3.11/site-packages/matplotlib/backends/backend_pdf.py", line 688, in __init__
+    fh, opened = cbook.to_filehandle(filename, "wb", return_opened=True)
+                 ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/apps/spack/negishi/apps/anaconda/2024.02-py311-gcc-8.5.0-lr57z2f/lib/python3.11/site-packages/matplotlib/cbook.py", line 483, in to_filehandle
+    fh = open(fname, flag, encoding=encoding)
+         ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+FileNotFoundError: [Errno 2] No such file or directory: './signals_25_noise1/3_50_SignalsPics.pdf'
+srun: error: a129: task 0: Exited with exit code 1

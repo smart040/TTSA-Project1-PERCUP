@@ -1,0 +1,9 @@
+Traceback (most recent call last):
+  File "/scratch/negishi/mart1789/QPDS_12/QPDS_12.py", line 621, in <module>
+    if should_run_QPDS(dgm1) == False:
+       ^^^^^^^^^^^^^^^^^^^^^
+  File "/scratch/negishi/mart1789/QPDS_12/QPDS_12.py", line 353, in should_run_QPDS
+    point2 = dgm_array[sorted_indices[-2]]
+                       ~~~~~~~~~~~~~~^^^^
+IndexError: index -2 is out of bounds for axis 0 with size 1
+srun: error: a192: task 0: Exited with exit code 1

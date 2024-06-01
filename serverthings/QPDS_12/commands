@@ -1,0 +1,12 @@
+python QPDS_12.py 2 1 > out_2_1.txt
+python QPDS_12.py 2 2 > out_2_2.txt
+python QPDS_12.py 2 3 > out_2_3.txt
+python QPDS_12.py 2 4 > out_2_4.txt
+python QPDS_12.py 2 5 > out_2_5.txt
+python QPDS_12.py 2 6 > out_2_6.txt
+python QPDS_12.py 2 7 > out_2_7.txt
+python QPDS_12.py 2 8 > out_2_8.txt
+python QPDS_12.py 2 9 > out_2_9.txt
+python QPDS_12.py 2 10 > out_2_10.txt
+python QPDS_12.py 2 11 > out_2_11.txt
+python QPDS_12.py 2 12 > out_2_12.txt
